@@ -10,9 +10,9 @@
     "categories": [
         "Themes"
     ],
-    "icon": "assets/cover-ethereum.png",
+    "icon": "assets/ethereum-cover-bg.png",
     "galleryBanner": {
-        "color": "#C178DD",
+        "color": "#392442",
         "theme": "dark"
     },
     "repository": {
@@ -23,6 +23,7 @@
         "theme",
         "dark",
         "one",
+        "atom","one dark","dark theme","react","javascript","typescript",
         "ethereum",
         "atom",
         "best"
