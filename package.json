@@ -1,45 +1,45 @@
 {
-    "name": "ethereum-dark",
-    "displayName": "Ethereum Dark",
-    "description": "The VSC Ethereum Dark theme",
-    "version": "1.2.0",
-    "publisher": "karolk",
-    "engines": {
-        "vscode": "^1.55.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "icon": "assets/cover-ethereum.png",
-    "galleryBanner": {
-        "color": "#392442",
-        "theme": "dark"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/karolkozer/one-dark-ethereum-theme.git"
-    },
-    "keywords": [
-        "theme",
-        "dark",
-        "one",
-        "atom",
-        "one dark",
-        "dark theme",
-        "react",
-        "javascript",
-        "typescript",
-        "ethereum",
-        "atom",
-        "best"
-    ],
-    "contributes": {
-        "themes": [
-            {
-                "label": "Ethereum Dark",
-                "uiTheme": "vs-dark",
-                "path": "./themes/Ethereum Dark-color-theme.json"
-            }
-        ]
-    }
+  "name": "ethereum-dark",
+  "displayName": "Ethereum Dark",
+  "description": "The VSC Ethereum Dark theme",
+  "version": "1.2.0",
+  "publisher": "karolk",
+  "engines": {
+    "vscode": "^1.55.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "icon": "assets/cover-ethereum.png",
+  "galleryBanner": {
+    "color": "#000000",
+    "theme": "dark"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/karolkozer/one-dark-ethereum-theme.git"
+  },
+  "keywords": [
+    "theme",
+    "dark",
+    "one",
+    "atom",
+    "one dark",
+    "dark theme",
+    "react",
+    "javascript",
+    "typescript",
+    "ethereum",
+    "atom",
+    "best"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Ethereum Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Ethereum Dark-color-theme.json"
+      }
+    ]
+  }
 }
