@@ -4,7 +4,7 @@ Based on the [One Dark's](https://github.com/atom/one-dark-syntax) Theme.
 
 ![](https://github.com/karolkozer/one-dark-ethereum-theme/blob/main/assets/example-1.png?raw=true)
 
-![](https://github.com/karolkozer/one-dark-ethereum-theme/blob/main/assets/example-2.png?raw=true)
+![](https://github.com/karolkozer/one-dark-ethereum-theme/blob/main/assets/example-2.png)
 
 ![](https://github.com/karolkozer/one-dark-ethereum-theme/blob/main/assets/example-3.png?raw=true)
 
