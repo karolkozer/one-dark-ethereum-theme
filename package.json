@@ -39,7 +39,22 @@
       {
         "label": "Ethereum Dark",
         "uiTheme": "vs-dark",
-        "path": "./themes/Ethereum Dark-color-theme.json"
+        "path": "./themes/ethereum-dark-color-theme.json"
+      },
+      {
+        "label": "Ethereum Dark Grey",
+        "uiTheme": "vs-dark",
+        "path": "./themes/ethereum-dark-grey-color-theme.json"
+      },
+      {
+        "label": "Ethereum Dark Purple",
+        "uiTheme": "vs-dark",
+        "path": "./themes/ethereum-dark-purple-color-theme.json"
+      },
+      {
+        "label": "Ethereum Dark Blue",
+        "uiTheme": "vs-dark",
+        "path": "./themes/ethereum-dark-blue-color-theme.json"
       }
     ]
   }
