@@ -1862,9 +1862,6 @@
       }
     },
 
-
-    // VSC tokenColors
-
                    {
                           "scope": [
                                "storage.type.js",

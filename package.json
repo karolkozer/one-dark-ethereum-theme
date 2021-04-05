@@ -10,6 +10,11 @@
     "categories": [
         "Themes"
     ],
+    "icon": "assets/cover-ethereum.png",
+    "galleryBanner": {
+        "color": "#C178DD",
+        "theme": "dark"
+      },
     "repository": {
         "type": "git",
         "url": "https://github.com/karolkozer/one-dark-ethereum-theme.git"
