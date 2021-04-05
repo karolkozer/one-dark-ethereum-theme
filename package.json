@@ -1,7 +1,7 @@
 {
-  "name": "ethereum-dark",
-  "displayName": "Ethereum Dark",
-  "description": "The VSC Ethereum Dark theme",
+  "name": "ethereum-dark-theme",
+  "displayName": "Ethereum Dark Theme",
+  "description": "The Ethereum Dark Theme",
   "version": "1.2.4",
   "publisher": "karolk",
   "engines": {
@@ -10,7 +10,7 @@
   "categories": [
     "Themes"
   ],
-  "icon": "assets/cover-ethereum.png",
+  "icon": "assets/theme-cover.png",
   "galleryBanner": {
     "color": "#000000",
     "theme": "dark"
@@ -24,6 +24,7 @@
     "dark",
     "one",
     "atom",
+    "atom theme",
     "one dark",
     "dark theme",
     "react",
