@@ -2,7 +2,7 @@
     "name": "ethereum-dark",
     "displayName": "Ethereum Dark",
     "description": "The VSC Ethereum Dark theme",
-    "version": "1.1.2",
+    "version": "1.1.3",
     "publisher": "karolk",
     "engines": {
         "vscode": "^1.55.0"
@@ -23,7 +23,12 @@
         "theme",
         "dark",
         "one",
-        "atom","one dark","dark theme","react","javascript","typescript",
+        "atom",
+        "one dark",
+        "dark theme",
+        "react",
+        "javascript",
+        "typescript",
         "ethereum",
         "atom",
         "best"
