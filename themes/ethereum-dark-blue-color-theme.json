@@ -933,9 +933,35 @@
         "foreground": "#C678DD"
       }
     },
+
+    {
+      "name": "Source Js Keyword Switch Operator ",
+      "scope": [
+        "source.js meta.group.braces.round.js meta.group.braces.curly.js meta.switch.js keyword.control.switch.js",
+        "source.js meta.group.braces.round.js meta.group.braces.curly.js meta.switch.js keyword.control.loop.js"
+      ],
+      "settings": {
+        "foreground": "#C678DD"
+      }
+    },
+
     {
       "name": "Source Ts Keyword Operator",
       "scope": ["source.ts keyword.operator"],
+      "settings": {
+        "foreground": "#56B6C2"
+      }
+    },
+    {
+      "name": "Source Ts Interface",
+      "scope": ["source.tsx meta.interface.tsx storage.type.interface.tsx"],
+      "settings": {
+        "foreground": "#C678DD"
+      }
+    },
+    {
+      "name": "Source Ts Interface",
+      "scope": ["source.tsx meta.interface.tsx entity.name.type.interface.tsx"],
       "settings": {
         "foreground": "#56B6C2"
       }
