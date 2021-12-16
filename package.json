@@ -2,7 +2,7 @@
   "name": "ethereum-dark",
   "displayName": "Ethereum Dark Theme",
   "description": "The Ethereum Dark Theme",
-  "version": "1.4.0",
+  "version": "1.5.0",
   "publisher": "karolk",
   "engines": {
     "vscode": "^1.55.0"
