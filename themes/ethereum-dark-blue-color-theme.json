@@ -251,7 +251,8 @@
       "name": "Keyword Control",
       "scope": ["keyword.control"],
       "settings": {
-        "foreground": "#E06C75"
+        "foreground": "#E06C75",
+        "fontStyle": ""
       }
     },
     {
@@ -956,7 +957,8 @@
       "name": "Source Ts Interface",
       "scope": ["source.tsx meta.interface.tsx storage.type.interface.tsx"],
       "settings": {
-        "foreground": "#C678DD"
+        "foreground": "#E06C75",
+        "fontStyle": ""
       }
     },
     {
@@ -1186,7 +1188,8 @@
       "scope": [
         "variable.other.readwrite.js",
         "variable.other.readwrite.ts",
-        "variable.other.readwrite.tsx"
+        "variable.other.readwrite.tsx",
+        "source.tsx variable.other.readwrite.tsx"
       ],
       "settings": {
         "foreground": "#C178DD"
@@ -1414,7 +1417,7 @@
         "constant.language.import-export-all.tsx"
       ],
       "settings": {
-        "foreground": "#56B6C2"
+        "foreground": "#E06C75"
       }
     },
     {
@@ -1600,7 +1603,8 @@
         "storage.type.property.tsx"
       ],
       "settings": {
-        "foreground": "#56B6C2"
+        "foreground": "#E06C75",
+        "fontStyle": ""
       }
     },
     {
@@ -2333,6 +2337,27 @@
     },
     {
       "scope": [
+        "storage.modifier.ts",
+        "storage.type.interface.ts",
+        "storage.type.enum.ts"
+      ],
+      "settings": {
+        "fontStyle": ""
+      }
+    },
+    {
+      "scope": [
+        "entity.name.type.interface.ts",
+        "entity.name.type.alias.ts",
+        "entity.other.inherited-class.ts",
+        "entity.name.type.enum.ts"
+      ],
+      "settings": {
+        "foreground": "#56B6C2"
+      }
+    },
+    {
+      "scope": [
         "storage.type.ts",
         "keyword.control.flow.ts",
         "storage.type.function.ts",
@@ -2344,7 +2369,8 @@
         "source.ts variable.other.readwrite.ts"
       ],
       "settings": {
-        "foreground": "#E06C75"
+        "foreground": "#E06C75",
+        "fontStyle": ""
       }
     },
     {
@@ -2356,19 +2382,22 @@
     {
       "scope": ["keyword.control.import.ts", "meta.import.ts", "source.ts"],
       "settings": {
-        "foreground": "#E06C75"
+        "foreground": "#E06C75",
+        "fontStyle": ""
       }
     },
     {
       "scope": ["keyword.control.from.ts", "meta.import.ts", "source.ts"],
       "settings": {
-        "foreground": "#E06C75"
+        "foreground": "#E06C75",
+        "fontStyle": ""
       }
     },
     {
       "scope": ["keyword.control.export.ts", "meta.var.expr.ts", "source.ts"],
       "settings": {
-        "foreground": "#E06C75"
+        "foreground": "#E06C75",
+        "fontStyle": ""
       }
     },
     {
@@ -2491,7 +2520,10 @@
       }
     },
     {
-      "scope": "source.ts entity.name.function.ts",
+      "scope": [
+        "source.ts entity.name.function.ts",
+        "source.ts meta.function.ts entity.name.function.ts"
+      ],
       "settings": {
         "foreground": "#ABB2BF"
       }
@@ -2684,7 +2716,18 @@
       "settings": {
         "foreground": "#56B6C2"
       }
-    }, // --******************************************************-- // --******************************************************-- // Typescript TSX
+    },
+    {
+      "scope": [
+        "storage.type.type.ts",
+        "meta.type.declaration.ts",
+        "source.ts"
+      ],
+      "settings": {
+        "fontStyle": ""
+      }
+    },
+    // --******************************************************-- // --******************************************************-- // Typescript TSX
     {
       "scope": [
         "storage.type.tsx",
@@ -2698,7 +2741,8 @@
         "source.tsx keyword.operator.module.tsx"
       ],
       "settings": {
-        "foreground": "#E06C75"
+        "foreground": "#E06C75",
+        "fontStyle": ""
       }
     },
     {
@@ -2813,9 +2857,13 @@
       }
     },
     {
-      "scope": "variable.other.constant.tsx",
+      "scope": [
+        "variable.other.constant.tsx",
+        "keyword.control.switch.tsx",
+        "keyword.control.conditional.tsx"
+      ],
       "settings": {
-        "foreground": "#6CAFEC"
+        "foreground": "#C178DD"
       }
     },
     {
@@ -3087,6 +3135,12 @@
       ],
       "settings": {
         "foreground": "#56B6C2"
+      }
+    },
+    {
+      "scope": ["meta.object-literal.key.tsx"],
+      "settings": {
+        "foreground": "#ABB2BF"
       }
     },
     {
