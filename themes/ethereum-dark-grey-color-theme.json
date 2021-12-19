@@ -619,6 +619,16 @@
       }
     },
     {
+      "scope": [
+        "keyword.other.unit.px.css",
+        "support.constant.property-value.css"
+      ],
+      "settings": {
+        "fontStyle": "",
+        "foreground": "#D19A66"
+      }
+    },
+    {
       "name": "Source Css Property Name Support,source Css Property Value Support",
       "scope": [
         "source.css property-name.support",
@@ -2063,7 +2073,7 @@
       "settings": {
         "foreground": "#ABB2BF"
       }
-    }, // { //     "scope": "source.js meta.group.braces.round.js variable.other.readwrite.js", //     "settings": { //         "foreground": "#ABB2BF" //     } // },
+    },
     {
       "scope": "source.js meta.var.expr.js meta.objectliteral.js meta.object.member.js variable.other.readwrite.js",
       "settings": {
@@ -2190,7 +2200,10 @@
       "settings": {
         "foreground": "#98C379"
       }
-    }, // --******************************************************-- // Typescript TS
+    },
+    // --*********************************************************************--
+    // --************************** Typescript TS ****************************--
+    // --*********************************************************************--
     {
       "scope": [
         "storage.type.ts",
@@ -2422,7 +2435,7 @@
       "settings": {
         "foreground": "#ABB2BF"
       }
-    }, // { //     "scope": "source.ts meta.group.braces.round.ts variable.other.readwrite.ts", //     "settings": { //         "foreground": "#ABB2BF" //     } // },
+    },
     {
       "scope": "source.ts meta.var.expr.ts meta.objectliteral.ts meta.object.member.ts variable.other.readwrite.ts",
       "settings": {
@@ -2599,7 +2612,22 @@
         "fontStyle": ""
       }
     },
-    // --******************************************************-- // --******************************************************-- // Typescript TSX
+    {
+      "scope": [
+        "entity.name.type.interface.ts",
+        "entity.name.type.alias.ts",
+        "entity.other.inherited-class.ts",
+        "entity.name.type.enum.ts",
+        "entity.name.type.alias.tsx",
+        "source.tsx meta.interface.tsx entity.name.type.interface.tsx"
+      ],
+      "settings": {
+        "foreground": "#6CAFEC"
+      }
+    },
+    // --*********************************************************************--
+    // --************************** Typescript TSX ****************************--
+    // --*********************************************************************--
     {
       "scope": [
         "storage.type.tsx",
@@ -2807,7 +2835,7 @@
       "settings": {
         "foreground": "#ABB2BF"
       }
-    }, // { //     "scope": "source.tsx meta.group.braces.round.tsx variable.other.readwrite.tsx", //     "settings": { //         "foreground": "#ABB2BF" //     } // },
+    },
     {
       "scope": "source.tsx meta.var.expr.tsx meta.objectliteral.tsx meta.object.member.tsx variable.other.readwrite.tsx",
       "settings": {
@@ -3027,6 +3055,114 @@
       ],
       "settings": {
         "foreground": "#56B6C2"
+      }
+    },
+    {
+      "scope": [
+        "source.tsx meta.function-call.tsx variable.other.object.tsx",
+        "source.tsx meta.function.tsx entity.name.function.tsx",
+        " variable.other.constant.tsx meta.definition.variable.tsx meta.array-binding-pattern-variable.tsx meta.var.expr.tsx meta.block.tsx meta.function.tsx source.tsx",
+        "source.tsx variable.other.readwrite.tsx",
+        "source.tsx meta.function.tsx meta.block.tsx meta.var.expr.tsx meta.array-binding-pattern-variable.tsx meta.definition.variable.tsx variable.other.constant.tsx"
+      ],
+      "settings": {
+        "foreground": "#ABB2BF"
+      }
+    },
+    {
+      "scope": [
+        "meta.block.tsx",
+        "source.tsx meta.object.member.tsx variable.other.readwrite.tsx"
+      ],
+      "settings": {
+        "foreground": "#ABB2BF"
+      }
+    },
+    {
+      "scope": [
+        "source.tsx meta.embedded.expression.tsx variable.other.readwrite.tsx",
+        "source.tsx meta.block.tsx variable.other.readwrite.tsx"
+      ],
+      "settings": {
+        "foreground": "#C178DD"
+      }
+    },
+    {
+      "scope": ["entity.name.type.module.ts"],
+      "settings": {
+        "foreground": "#C178DD"
+      }
+    },
+    {
+      "scope": ["keyword.operator.expression.typeof.ts"],
+      "settings": {
+        "foreground": "#E06C75"
+      }
+    },
+    {
+      "scope": ["entity.name.type.ts"],
+      "settings": {
+        "foreground": "#ABB2BF"
+      }
+    },
+    {
+      "scope": ["source.ts meta.function-call.ts variable.other.object.ts"],
+      "settings": {
+        "foreground": "#ABB2BF"
+      }
+    },
+    {
+      "scope": [
+        "source.ts meta.function.ts meta.block.ts meta.objectliteral.ts meta.object.member.ts meta.object-literal.key.ts"
+      ],
+      "settings": {
+        "foreground": "#ABB2BF"
+      }
+    },
+    {
+      "scope": ["punctuation.definition.section.case-statement.ts"],
+      "settings": {
+        "foreground": "#ABB2BF"
+      }
+    },
+
+    {
+      "scope": [
+        "source.tsx meta.function.tsx meta.block.tsx meta.function-call.tsx support.function.json.tsx"
+      ],
+      "settings": {
+        "foreground": "#56B6C2"
+      }
+    },
+    {
+      "scope": [
+        "source.ts meta.function.ts meta.return.type.ts meta.object.type.ts meta.field.declaration.ts meta.type.annotation.ts entity.name.type.ts",
+        "source.ts meta.function.ts meta.parameters.ts meta.type.annotation.ts entity.name.type.ts"
+      ],
+      "settings": {
+        "foreground": "#56B6C2"
+      }
+    },
+    {
+      "scope": ["entity.name.type.alias.tsx", "variable.other.constant.tsx"],
+      "settings": {
+        "foreground": "#6CAFEC"
+      }
+    },
+    {
+      "scope": [
+        "source.tsx meta.export.default.tsx variable.other.readwrite.tsx"
+      ],
+      "settings": {
+        "foreground": "#6CAFEC"
+      }
+    },
+    {
+      "scope": [
+        "source.tsx meta.function.tsx meta.block.tsx meta.objectliteral.tsx meta.object.member.tsx variable.other.readwrite.tsx"
+      ],
+      "settings": {
+        "foreground": "#6CAFEC"
       }
     }
   ]
