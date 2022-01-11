@@ -1036,7 +1036,11 @@
       }
     },
     {
-      "scope": ["entity.name.type.ts", "meta.type.parameters.ts support.type"],
+      "scope": [
+        "entity.name.type.ts",
+        "meta.type.parameters.ts support.type",
+        "support.type.primitive.ts"
+      ],
       "settings": {
         "foreground": "#56B6C2"
       }
@@ -3369,7 +3373,19 @@
     {
       "scope": ["support.constant"],
       "settings": {
-        "foreground": "#E5C07B"
+        "foreground": "#D19A66"
+      }
+    },
+    {
+      "scope": ["support.class.promise.ts"],
+      "settings": {
+        "foreground": "#ABB2BF"
+      }
+    },
+    {
+      "scope": ["support.function.json.ts"],
+      "settings": {
+        "foreground": "#ABB2BF"
       }
     },
     {
@@ -3400,7 +3416,10 @@
         "keyword.operator.ternary.js",
         "keyword.operator.optional.js",
         "keyword.operator.logical.js",
-        "keyword.operator.spread.js"
+        "keyword.operator.spread.js",
+        "punctuation.accessor.optional.ts",
+        "keyword.operator.bitwise.ts",
+        "keyword.operator.relational.ts"
       ],
       "settings": {
         "foreground": "#ABB2BF"
@@ -3415,7 +3434,10 @@
       }
     },
     {
-      "scope": ["source.js support.type.object.module.js"],
+      "scope": [
+        "source.js support.type.object.module.js",
+        "keyword.control.conditional.ts"
+      ],
       "settings": {
         "foreground": "#C178DD"
       }
@@ -3454,6 +3476,16 @@
     },
     {
       "scope": ["source.js variable.other.readwrite.js"],
+      "settings": {
+        "foreground": "#E06C75"
+      }
+    },
+    {
+      "scope": [
+        "keyword.operator.expression.import.ts",
+        "keyword.operator.expression.instanceof.ts",
+        "keyword.operator.new.ts"
+      ],
       "settings": {
         "foreground": "#E06C75"
       }
