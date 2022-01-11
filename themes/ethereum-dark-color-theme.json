@@ -3392,6 +3392,22 @@
     },
     {
       "scope": [
+        "keyword.operator.assignment.js",
+        "keyword.operator.arithmetic.js",
+        "keyword.operator.type.annotation.js",
+        "keyword.operator.type.js",
+        "punctuation.definition.binding-pattern.object.js",
+        "keyword.operator.ternary.js",
+        "keyword.operator.optional.js",
+        "keyword.operator.logical.js",
+        "keyword.operator.spread.js"
+      ],
+      "settings": {
+        "foreground": "#ABB2BF"
+      }
+    },
+    {
+      "scope": [
         "source.js meta.import.js constant.language.import-export-all.js"
       ],
       "settings": {
