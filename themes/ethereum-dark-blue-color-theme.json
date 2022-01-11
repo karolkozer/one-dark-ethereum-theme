@@ -634,16 +634,14 @@
       "name": "Invalid Deprecated",
       "scope": ["invalid.deprecated"],
       "settings": {
-        "foreground": "#523D14",
-        "background": "#E0C285"
+        "foreground": "#523D14"
       }
     },
     {
       "name": "Invalid Illegal",
       "scope": ["invalid.illegal"],
       "settings": {
-        "foreground": "white",
-        "background": "#E05252"
+        "foreground": "#fff"
       }
     },
     {
@@ -2044,6 +2042,56 @@
       }
     },
     {
+      "scope": ["support.class"],
+      "settings": {
+        "foreground": "#E06C75"
+      }
+    },
+    {
+      "scope": ["source.js entity.name.function.js"],
+      "settings": {
+        "foreground": "#6CAFEC"
+      }
+    },
+    {
+      "scope": ["support.constant"],
+      "settings": {
+        "foreground": "#E5C07B"
+      }
+    },
+    {
+      "scope": ["string.template.js"],
+      "settings": {
+        "foreground": "#98C379"
+      }
+    },
+    {
+      "scope": ["source.js meta.function-call.js variable.other.object.js"],
+      "settings": {
+        "foreground": "#ABB2BF"
+      }
+    },
+    {
+      "scope": ["source.js meta.function-call.js entity.name.function.js"],
+      "settings": {
+        "foreground": "#ABB2BF"
+      }
+    },
+    {
+      "scope": [
+        "source.js meta.import.js constant.language.import-export-all.js"
+      ],
+      "settings": {
+        "foreground": "#ABB2BF"
+      }
+    },
+    {
+      "scope": ["source.js support.type.object.module.js"],
+      "settings": {
+        "foreground": "#C178DD"
+      }
+    },
+    {
       "scope": [
         "storage.type.js",
         "keyword.control.flow.js",
@@ -2329,6 +2377,140 @@
         "foreground": "#98C379"
       }
     },
+
+    // --*********************************************************************--
+    // --************************** JavaScript JSX ****************************--
+    // --*********************************************************************--
+
+    {
+      "scope": [
+        "source.js meta.function.js meta.block.js meta.tag.without-attributes.js meta.jsx.children.js meta.tag.without-attributes.js meta.jsx.children.js meta.tag.js meta.jsx.children.js meta.tag.js meta.tag.attributes.js meta.embedded.expression.js meta.function-call.js entity.name.function.js"
+      ],
+      "settings": {
+        "foreground": "#ABB2BF"
+      }
+    },
+
+    {
+      "scope": [
+        "source.js.jsx meta.var.expr.js.jsx meta.arrow.js.jsx meta.parameters.js.jsx meta.parameter.object-binding-pattern.js.jsx meta.tag.js.jsx entity.name.tag.js.jsx support.class.component.js.jsx"
+      ],
+      "settings": {
+        "foreground": "#E06C75"
+      }
+    },
+
+    {
+      "scope": ["source.js meta.export.default.js variable.other.readwrite.js"],
+      "settings": {
+        "foreground": "#6CAFEC"
+      }
+    },
+    {
+      "scope": [
+        "source.js.jsx meta.var.expr.js.jsx meta.arrow.js.jsx meta.block.js.jsx meta.var.expr.js.jsx variable.other.readwrite.js.jsx"
+      ],
+      "settings": {
+        "foreground": "#6CAFEC"
+      }
+    },
+    {
+      "scope": [
+        "source.js.jsx meta.var.expr.js.jsx meta.arrow.js.jsx meta.block.js.jsx meta.var.expr.js.jsx meta.arrow.js.jsx meta.block.js.jsx variable.other.readwrite.js.jsx"
+      ],
+      "settings": {
+        "foreground": "#6CAFEC"
+      }
+    },
+
+    {
+      "scope": [
+        "source.js.jsx meta.var.expr.js.jsx meta.arrow.js.jsx meta.block.js.jsx meta.var.expr.js.jsx meta.arrow.js.jsx meta.block.js.jsx meta.function-call.js.jsx variable.other.object.js.jsx",
+        "source.js.jsx meta.var.expr.js.jsx meta.arrow.js.jsx meta.block.js.jsx meta.tag.js.jsx meta.jsx.children.js.jsx meta.embedded.expression.js.jsx variable.other.readwrite.js.jsx"
+      ],
+      "settings": {
+        "foreground": "#C178DD"
+      }
+    },
+    {
+      "scope": [
+        "source.js meta.export.default.js meta.function.expression.js meta.block.js meta.var.expr.js meta.function-call.js variable.other.object.js"
+      ],
+      "settings": {
+        "foreground": "#C178DD"
+      }
+    },
+    {
+      "scope": ["source.js meta.var.expr.js variable.other.readwrite.js"],
+      "settings": {
+        "foreground": "#C178DD"
+      }
+    },
+    {
+      "scope": [
+        "source.js meta.var.expr.js meta.arrow.js meta.block.js meta.tag.js meta.tag.attributes.js meta.embedded.expression.js variable.other.readwrite.js"
+      ],
+      "settings": {
+        "foreground": "#C178DD"
+      }
+    },
+    {
+      "scope": [
+        "source.js meta.export.default.js meta.function.expression.js meta.block.js meta.tag.js meta.jsx.children.js meta.tag.js meta.jsx.children.js meta.tag.js meta.tag.attributes.js meta.embedded.expression.js variable.other.readwrite.js"
+      ],
+      "settings": {
+        "foreground": "#C178DD"
+      }
+    },
+    {
+      "scope": [
+        "source.js meta.export.default.js meta.function.expression.js meta.block.js meta.tag.js meta.jsx.children.js meta.embedded.expression.js meta.function-call.js variable.other.object.js"
+      ],
+      "settings": {
+        "foreground": "#C178DD"
+      }
+    },
+    {
+      "scope": [
+        "source.js meta.export.default.js meta.function.expression.js meta.block.js meta.var.expr.js meta.function-call.js entity.name.function.js"
+      ],
+      "settings": {
+        "foreground": "#ABB2BF"
+      }
+    },
+    {
+      "scope": [
+        "source.js meta.export.default.js meta.function.expression.js meta.block.js meta.tag.js meta.jsx.children.js meta.embedded.expression.js meta.function-call.js entity.name.function.js"
+      ],
+      "settings": {
+        "foreground": "#ABB2BF"
+      }
+    },
+    {
+      "scope": [
+        "source.js meta.export.default.js meta.function.expression.js meta.block.js meta.block.js meta.tag.js meta.tag.attributes.js meta.embedded.expression.js variable.other.readwrite.js"
+      ],
+      "settings": {
+        "foreground": "#C178DD"
+      }
+    },
+    {
+      "scope": [
+        "source.js meta.var.expr.js meta.arrow.js meta.block.js meta.function-call.js entity.name.function.js"
+      ],
+      "settings": {
+        "foreground": "#ABB2BF"
+      }
+    },
+    {
+      "scope": [
+        "source.js meta.export.default.js meta.function.expression.js meta.block.js meta.block.js meta.tag.js meta.tag.attributes.js meta.embedded.expression.js meta.function-call.js entity.name.function.js"
+      ],
+      "settings": {
+        "foreground": "#ABB2BF"
+      }
+    },
+
     // --*********************************************************************--
     // --************************** Typescript TS ****************************--
     // --*********************************************************************--
@@ -2356,6 +2538,55 @@
       ],
       "settings": {
         "fontStyle": ""
+      }
+    },
+    {
+      "scope": ["source.ts keyword.operator"],
+      "settings": {
+        "foreground": "#E06C75"
+      }
+    },
+    {
+      "scope": ["entity.name.type.ts", "meta.type.parameters.ts support.type"],
+      "settings": {
+        "foreground": "#56B6C2"
+      }
+    },
+    {
+      "scope": [
+        "keyword.operator.type.annotation.ts",
+        "keyword.operator.assignment.ts",
+        "keyword.operator.type.ts",
+        "keyword.operator.arithmetic.ts",
+        "punctuation.definition.binding-pattern.object.ts",
+        "keyword.operator.ternary.ts",
+        "keyword.operator.optional.ts",
+        "keyword.operator.logical.ts",
+        "keyword.operator.spread.ts",
+        "source.ts keyword.operator"
+      ],
+      "settings": {
+        "foreground": "#ABB2BF"
+      }
+    },
+    {
+      "scope": ["support.type.builtin.ts"],
+      "settings": {
+        "foreground": "#E5C07B"
+      }
+    },
+    {
+      "scope": ["source.ts meta.class.ts entity.other.inherited-class.ts"],
+      "settings": {
+        "foreground": "#6CAFEC"
+      }
+    },
+    {
+      "scope": [
+        "source.ts meta.function.ts meta.block.ts meta.class.ts meta.method.declaration.ts meta.block.ts variable.other.property.ts"
+      ],
+      "settings": {
+        "foreground": "#6CAFEC"
       }
     },
     {
@@ -2756,6 +2987,7 @@
     // --*********************************************************************--
     // --************************** Typescript TSX ****************************--
     // --*********************************************************************--
+
     {
       "scope": [
         "storage.type.tsx",
