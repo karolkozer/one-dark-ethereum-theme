@@ -1062,14 +1062,12 @@
         "foreground": "#ABB2BF"
       }
     },
+
     {
-      "scope": ["support.type.builtin.ts"],
-      "settings": {
-        "foreground": "#E5C07B"
-      }
-    },
-    {
-      "scope": ["source.ts meta.class.ts entity.other.inherited-class.ts"],
+      "scope": [
+        "source.ts meta.class.ts entity.other.inherited-class.ts",
+        "meta.export.default.ts variable.other.readwrite.ts"
+      ],
       "settings": {
         "foreground": "#6CAFEC"
       }
@@ -1506,7 +1504,7 @@
     {
       "scope": ["support.type.builtin.ts"],
       "settings": {
-        "foreground": "#E5C07B"
+        "foreground": "#D19A66"
       }
     },
     {
@@ -2783,10 +2781,7 @@
     },
     {
       "name": "[VSCODE-CUSTOM] JS/TS Export Variable",
-      "scope": [
-        "meta.export.default.js variable.other.readwrite.js",
-        "meta.export.default.ts variable.other.readwrite.ts"
-      ],
+      "scope": ["meta.export.default.js variable.other.readwrite.js"],
       "settings": {
         "foreground": "#E06C75"
       }
