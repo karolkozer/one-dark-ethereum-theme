@@ -77,6 +77,1453 @@
   },
   "tokenColors": [
     {
+      "scope": [
+        "variable.other.readwrite.js",
+        "variable.parameter",
+        "entity.name.type.class.js",
+        "source.js meta.function.js meta.definition.function.js entity.name.function.js",
+        "source.js meta.var.expr.js meta.function.expression.js meta.block.js meta.var.expr.js meta.arrow.js meta.block.js meta.var.expr.js meta.var-single-variable.expr.js meta.definition.variable.js variable.other.readwrite.js",
+        "source.js meta.var.expr.js meta.function.expression.js meta.block.js meta.objectliteral.js meta.method.declaration.js meta.block.js meta.var.expr.js meta.var-single-variable.expr.js meta.definition.variable.js variable.other.readwrite.js",
+        "source.js meta.var.expr.js meta.function.expression.js meta.block.js meta.var.expr.js meta.function.expression.js meta.block.js meta.var.expr.js meta.var-single-variable.expr.js meta.definition.variable.js variable.other.readwrite.js",
+        "entity.name.function.js",
+        "source.js meta.group.braces.round.js meta.group.braces.curly.js meta.function.arrow.js entity.name.function.js",
+        "source.js meta.group.braces.round.js meta.group.braces.curly.js meta.function.js entity.name.function.js",
+        "source.js meta.var.expr.js meta.var-single-variable.expr.js meta.definition.variable.js variable.other.readwrite.js",
+        "source.js meta.group.braces.round.js meta.group.braces.curly.js meta.class.js meta.group.braces.curly.js variable.other.readwrite.js",
+        "source.js meta.function.js entity.name.function.js",
+        "source.js meta.function.arrow.js entity.name.function.js"
+      ],
+      "settings": {
+        "foreground": "#6CAFEC"
+      }
+    },
+    {
+      "scope": "source.js meta.var.expr.js meta.var-single-variable.expr.js meta.definition.variable.js entity.name.function.js",
+      "settings": {
+        "foreground": "#6CAFEC"
+      }
+    },
+    {
+      "scope": "source.js meta.var.expr.js meta.array-binding-pattern-variable.js meta.definition.variable.js variable.other.readwrite.js",
+      "settings": {
+        "foreground": "#6CAFEC"
+      }
+    },
+    {
+      "scope": "source.js variable.other.readwrite.js",
+      "settings": {
+        "foreground": "#6CAFEC"
+      }
+    },
+    {
+      "scope": "source.js meta.arrow.js meta.block.js meta.var.expr.js meta.array-binding-pattern-variable.js meta.definition.variable.js variable.other.readwrite.js",
+      "settings": {
+        "foreground": "#6CAFEC"
+      }
+    },
+    {
+      "scope": "variable.other.constant.js",
+      "settings": {
+        "foreground": "#6CAFEC"
+      }
+    },
+    {
+      "scope": "source.js meta.for.js keyword.control.loop.js",
+      "settings": {
+        "foreground": "#6CAFEC"
+      }
+    },
+    {
+      "scope": "source.js meta.class.js entity.name.class.js",
+      "settings": {
+        "foreground": "#6CAFEC"
+      }
+    },
+    {
+      "scope": [
+        "variable",
+        "entity.name.function",
+        "meta.var.expr.js",
+        "support.variable.dom.js",
+        "support.function",
+        "source.js meta.class.js meta.function.arrow.js entity.name.function.js"
+      ],
+      "settings": {
+        "foreground": "#ABB2BF"
+      }
+    },
+    {
+      "scope": [
+        "support.class",
+        "support.function.console.js",
+        "storage.type.function.arrow.js",
+        "source.js keyword.operator",
+        "punctuation.separator.key-value.js",
+        "entity.name.type.js",
+        "support.variable.property.js",
+        "source.js meta.class.js entity.other.inherited-class.js",
+        "source.js meta.group.braces.round.js meta.group.braces.curly.js meta.group.braces.curly.js support.type.object.dom.js"
+      ],
+      "settings": {
+        "foreground": "#ABB2BF"
+      }
+    },
+    {
+      "scope": "source.js entity.name.function.js",
+      "settings": {
+        "foreground": "#ABB2BF"
+      }
+    },
+    {
+      "scope": [
+        "source.js meta.group.braces.curly.js meta.group.braces.square.js variable.other.readwrite.js",
+        "source.js meta.class.js meta.function-call.without-arguments.js variable.function.js",
+        "source.js punctuation.section.embedded.begin.jsx",
+        "source.js punctuation.section.embedded.end.jsx"
+      ],
+      "settings": {
+        "foreground": "#ABB2BF"
+      }
+    },
+    {
+      "scope": "source.js support.type.object.console.js",
+      "settings": {
+        "foreground": "#ABB2BF"
+      }
+    },
+    {
+      "scope": "source.js meta.group.braces.round.js",
+      "settings": {
+        "foreground": "#ABB2BF"
+      }
+    },
+    {
+      "scope": "source.js meta.var.expr.js meta.objectliteral.js meta.object.member.js variable.other.readwrite.js",
+      "settings": {
+        "foreground": "#ABB2BF"
+      }
+    },
+    {
+      "scope": "source.js meta.group.braces.round.js meta.group.braces.curly.js meta.group.braces.curly.js meta.group.braces.curly.js meta.group.braces.round.js meta.group.braces.curly.js constant.other.object.key.js string.unquoted.label.js",
+      "settings": {
+        "foreground": "#ABB2BF"
+      }
+    },
+    {
+      "scope": [
+        "source.js support.variable.property.dom.js",
+        "source.js support.type.object.dom.js",
+        "source.js  meta.group.braces.curly.js variable.other.readwrite.js",
+        "source.js meta.class.js meta.class.property.js meta.group.braces.curly.js meta.brace.curly.begin.js",
+        "source.js meta.class.js meta.class.property.js meta.group.braces.curly.js meta.brace.curly.end.js",
+        "source.js meta.class.js meta.class.property.js meta.group.braces.curly.js meta.group.braces.square.js meta.brace.square.end.js",
+        "source.js meta.class.js meta.class.property.js meta.group.braces.curly.js meta.group.braces.square.js meta.brace.square.begin.js",
+        "source.js meta.class.js meta.class.property.js meta.group.braces.curly.js meta.group.braces.square.js",
+        "source.js meta.class.js meta.class.property.js meta.group.braces.curly.js meta.property.object.js",
+        "source.js meta.class.js meta.class.property.js meta.group.braces.curly.js meta.delimiter.comma.js",
+        "source.js meta.class.js meta.class.property.js meta.group.braces.curly.js meta.function-call.without-arguments.js meta.group.braces.round.function.arguments.js",
+        "source.js meta.class.js meta.class.property.js meta.group.braces.curly.js meta.function-call.method.without-arguments.js"
+      ],
+      "settings": {
+        "foreground": "#ABB2BF"
+      }
+    },
+    {
+      "scope": "source.js meta.var.expr.js variable.other.readwrite.js",
+      "settings": {
+        "foreground": "#ABB2BF"
+      }
+    },
+    {
+      "scope": "source.js string.unquoted.label.js",
+      "settings": {
+        "foreground": "#ABB2BF"
+      }
+    },
+    {
+      "scope": "source.js meta.function-call.js variable.other.object.js",
+      "settings": {
+        "foreground": "#C178DD"
+      }
+    },
+    {
+      "scope": ["source.js variable.other.object.js"],
+      "settings": {
+        "foreground": "#C178DD"
+      }
+    },
+    {
+      "scope": "source.js meta.function.js meta.block.js meta.var.expr.js meta.objectliteral.js meta.object.member.js variable.other.readwrite.js",
+      "settings": {
+        "foreground": "#C178DD"
+      }
+    },
+    {
+      "scope": "source.js meta.class.js meta.method.declaration.js meta.block.js variable.other.readwrite.js",
+      "settings": {
+        "foreground": "#C178DD"
+      }
+    },
+    {
+      "scope": "source.js meta.class.js meta.group.braces.curly.js meta.group.braces.square.js variable.other.readwrite.js",
+      "settings": {
+        "foreground": "#C178DD"
+      }
+    },
+    {
+      "scope": "source.js meta.var.expr.js meta.function.expression.js meta.block.js variable.other.readwrite.js",
+      "settings": {
+        "foreground": "#C178DD"
+      }
+    },
+    {
+      "scope": "source.js meta.var.expr.js meta.function.expression.js meta.block.js meta.var.expr.js variable.language.arguments.js",
+      "settings": {
+        "foreground": "#C178DD"
+      }
+    },
+    {
+      "scope": "source.js meta.group.braces.round.js meta.group.braces.curly.js meta.group.braces.curly.js meta.group.braces.curly.js meta.group.braces.round.js meta.group.braces.round.js meta.property.class.js variable.other.class.js",
+      "settings": {
+        "foreground": "#C178DD"
+      }
+    },
+    {
+      "scope": "source.js meta.group.braces.round.js meta.group.braces.curly.js meta.group.braces.curly.js meta.group.braces.curly.js meta.group.braces.round.js meta.property.class.js variable.other.class.js",
+      "settings": {
+        "foreground": "#C178DD"
+      }
+    },
+    {
+      "scope": [
+        "source.js meta.group.braces.round.js meta.group.braces.curly.js meta.group.braces.curly.js meta.group.braces.curly.js meta.group.braces.round.js variable.other.readwrite.js",
+        "source.js meta.group.braces.round.js meta.group.braces.curly.js meta.group.braces.curly.js meta.group.braces.round.js variable.other.readwrite.js",
+        "source.js meta.group.braces.round.js meta.group.braces.curly.js meta.group.braces.curly.js meta.group.braces.round.js meta.group.braces.round.js variable.other.constant.js",
+        "source.js meta.group.braces.round.js meta.group.braces.curly.js meta.group.braces.curly.js meta.group.braces.round.js variable.other.constant.js",
+        "source.js meta.function-call.without-arguments.js variable.function.js",
+        "source.js meta.embedded.expression.jsx variable.other.readwrite.js",
+        "source.js meta.class.js meta.group.braces.curly.js meta.group.braces.round.js meta.group.braces.curly.js variable.other.readwrite.js",
+        "source.js variable.language.super.js",
+        "source.js meta.group.braces.curly.js meta.group.braces.round.js  variable.other.readwrite.js",
+        "source.js meta.class.js meta.class.property.js meta.group.braces.curly.js meta.group.braces.round.js variable.other.readwrite.js"
+      ],
+      "settings": {
+        "foreground": "#C178DD"
+      }
+    },
+    {
+      "scope": [
+        "source.js meta.group.braces.round.js meta.group.braces.curly.js meta.group.braces.curly.js meta.group.braces.curly.js string.interpolated.js keyword.other.template.begin.js",
+        "source.js meta.group.braces.round.js meta.group.braces.curly.js meta.group.braces.curly.js meta.group.braces.curly.js string.interpolated.js keyword.other.template.end.js",
+        "source.js string.interpolated.js keyword.other.template.end.js",
+        "source.js string.interpolated.js keyword.other.template.begin.js",
+        "source.js keyword.other.substitution.begin.js",
+        "source.js keyword.other.substitution.end.js"
+      ],
+      "settings": {
+        "foreground": "#98C379"
+      }
+    },
+
+    // --*********************************************************************--
+    // --************************** JavaScript JSX ****************************--
+    // --*********************************************************************--
+
+    {
+      "scope": [
+        "source.js meta.function.js meta.block.js meta.tag.without-attributes.js meta.jsx.children.js meta.tag.without-attributes.js meta.jsx.children.js meta.tag.js meta.jsx.children.js meta.tag.js meta.tag.attributes.js meta.embedded.expression.js meta.function-call.js entity.name.function.js"
+      ],
+      "settings": {
+        "foreground": "#ABB2BF"
+      }
+    },
+
+    {
+      "scope": [
+        "source.js.jsx meta.var.expr.js.jsx meta.arrow.js.jsx meta.parameters.js.jsx meta.parameter.object-binding-pattern.js.jsx meta.tag.js.jsx entity.name.tag.js.jsx support.class.component.js.jsx"
+      ],
+      "settings": {
+        "foreground": "#E06C75"
+      }
+    },
+
+    {
+      "scope": ["source.js meta.export.default.js variable.other.readwrite.js"],
+      "settings": {
+        "foreground": "#6CAFEC"
+      }
+    },
+    {
+      "scope": [
+        "source.js.jsx meta.var.expr.js.jsx meta.arrow.js.jsx meta.block.js.jsx meta.var.expr.js.jsx variable.other.readwrite.js.jsx"
+      ],
+      "settings": {
+        "foreground": "#6CAFEC"
+      }
+    },
+    {
+      "scope": [
+        "source.js.jsx meta.var.expr.js.jsx meta.arrow.js.jsx meta.block.js.jsx meta.var.expr.js.jsx meta.arrow.js.jsx meta.block.js.jsx variable.other.readwrite.js.jsx"
+      ],
+      "settings": {
+        "foreground": "#6CAFEC"
+      }
+    },
+
+    {
+      "scope": [
+        "source.js.jsx meta.var.expr.js.jsx meta.arrow.js.jsx meta.block.js.jsx meta.var.expr.js.jsx meta.arrow.js.jsx meta.block.js.jsx meta.function-call.js.jsx variable.other.object.js.jsx",
+        "source.js.jsx meta.var.expr.js.jsx meta.arrow.js.jsx meta.block.js.jsx meta.tag.js.jsx meta.jsx.children.js.jsx meta.embedded.expression.js.jsx variable.other.readwrite.js.jsx"
+      ],
+      "settings": {
+        "foreground": "#C178DD"
+      }
+    },
+    {
+      "scope": [
+        "source.js meta.export.default.js meta.function.expression.js meta.block.js meta.var.expr.js meta.function-call.js variable.other.object.js"
+      ],
+      "settings": {
+        "foreground": "#C178DD"
+      }
+    },
+    {
+      "scope": ["source.js meta.var.expr.js variable.other.readwrite.js"],
+      "settings": {
+        "foreground": "#C178DD"
+      }
+    },
+    {
+      "scope": [
+        "source.js meta.var.expr.js meta.arrow.js meta.block.js meta.tag.js meta.tag.attributes.js meta.embedded.expression.js variable.other.readwrite.js"
+      ],
+      "settings": {
+        "foreground": "#C178DD"
+      }
+    },
+    {
+      "scope": [
+        "source.js meta.export.default.js meta.function.expression.js meta.block.js meta.tag.js meta.jsx.children.js meta.tag.js meta.jsx.children.js meta.tag.js meta.tag.attributes.js meta.embedded.expression.js variable.other.readwrite.js"
+      ],
+      "settings": {
+        "foreground": "#C178DD"
+      }
+    },
+    {
+      "scope": [
+        "source.js meta.export.default.js meta.function.expression.js meta.block.js meta.tag.js meta.jsx.children.js meta.embedded.expression.js meta.function-call.js variable.other.object.js"
+      ],
+      "settings": {
+        "foreground": "#C178DD"
+      }
+    },
+    {
+      "scope": [
+        "source.js meta.export.default.js meta.function.expression.js meta.block.js meta.var.expr.js meta.function-call.js entity.name.function.js"
+      ],
+      "settings": {
+        "foreground": "#ABB2BF"
+      }
+    },
+    {
+      "scope": [
+        "source.js meta.export.default.js meta.function.expression.js meta.block.js meta.tag.js meta.jsx.children.js meta.embedded.expression.js meta.function-call.js entity.name.function.js"
+      ],
+      "settings": {
+        "foreground": "#ABB2BF"
+      }
+    },
+    {
+      "scope": [
+        "source.js meta.export.default.js meta.function.expression.js meta.block.js meta.block.js meta.tag.js meta.tag.attributes.js meta.embedded.expression.js variable.other.readwrite.js"
+      ],
+      "settings": {
+        "foreground": "#C178DD"
+      }
+    },
+    {
+      "scope": [
+        "source.js meta.var.expr.js meta.arrow.js meta.block.js meta.function-call.js entity.name.function.js"
+      ],
+      "settings": {
+        "foreground": "#ABB2BF"
+      }
+    },
+    {
+      "scope": [
+        "source.js meta.export.default.js meta.function.expression.js meta.block.js meta.block.js meta.tag.js meta.tag.attributes.js meta.embedded.expression.js meta.function-call.js entity.name.function.js"
+      ],
+      "settings": {
+        "foreground": "#ABB2BF"
+      }
+    },
+
+    // --*********************************************************************--
+    // --************************** Typescript TSX ****************************--
+    // --*********************************************************************--
+
+    {
+      "scope": [
+        "storage.type.tsx",
+        "keyword.control.flow.tsx",
+        "storage.type.function.tsx",
+        "variable.language.this.tsx",
+        "storage.type.class.tsx",
+        "keyword.operator.new.tsx",
+        "source.tsx meta.class.tsx storage.modifier.tsx",
+        "source.tsx meta.class.tsx meta.method.declaration.tsx meta.block.tsx meta.function-call.tsx variable.language.super.tsx",
+        "source.tsx keyword.operator.module.tsx"
+      ],
+      "settings": {
+        "foreground": "#E06C75",
+        "fontStyle": ""
+      }
+    },
+    {
+      "scope": [
+        "storage.type.tsx",
+        "keyword.control.flow.tsx",
+        "storage.type.function.tsx",
+        "variable.language.this.tsx",
+        "storage.type.class.tsx",
+        "keyword.operator.new.tsx",
+        "source.tsx meta.class.tsx storage.modifier.tsx",
+        "source.tsx meta.class.tsx meta.method.declaration.tsx meta.block.tsx meta.function-call.tsx variable.language.super.tsx",
+        "source.tsx variable.other.readwrite.tsx"
+      ],
+      "settings": {
+        "foreground": "#E06C75"
+      }
+    },
+    {
+      "scope": ["source.tsx variable.other.readwrite.tsx"],
+      "settings": {
+        "foreground": "#E06C75"
+      }
+    },
+    {
+      "scope": ["keyword.control.import.tsx", "meta.import.tsx", "source.tsx"],
+      "settings": {
+        "foreground": "#E06C75"
+      }
+    },
+    {
+      "scope": ["keyword.control.from.tsx", "meta.import.tsx", "source.tsx"],
+      "settings": {
+        "foreground": "#E06C75"
+      }
+    },
+    {
+      "scope": ["keyword.control.as.tsx", "meta.import.tsx", "source.tsx"],
+      "settings": {
+        "foreground": "#E06C75"
+      }
+    },
+    {
+      "scope": ["support.class.component.tsx"],
+      "settings": {
+        "foreground": "#E06C75"
+      }
+    },
+    {
+      "scope": [
+        "keyword.control.export.tsx",
+        "meta.var.expr.tsx",
+        "source.tsx"
+      ],
+      "settings": {
+        "foreground": "#E06C75"
+      }
+    },
+    {
+      "scope": [
+        "variable.other.readwrite.tsx",
+        "variable.parameter",
+        "entity.name.type.class.tsx",
+        "source.tsx meta.function.tsx meta.definition.function.tsx entity.name.function.tsx",
+        "source.tsx meta.var.expr.tsx meta.function.expression.tsx meta.block.tsx meta.var.expr.tsx meta.arrow.tsx meta.block.tsx meta.var.expr.tsx meta.var-single-variable.expr.tsx meta.definition.variable.tsx variable.other.readwrite.tsx",
+        "source.tsx meta.var.expr.tsx meta.function.expression.tsx meta.block.tsx meta.objectliteral.tsx meta.method.declaration.tsx meta.block.tsx meta.var.expr.tsx meta.var-single-variable.expr.tsx meta.definition.variable.tsx variable.other.readwrite.tsx",
+        "source.tsx meta.var.expr.tsx meta.function.expression.tsx meta.block.tsx meta.var.expr.tsx meta.function.expression.tsx meta.block.tsx meta.var.expr.tsx meta.var-single-variable.expr.tsx meta.definition.variable.tsx variable.other.readwrite.tsx",
+        "entity.name.function.tsx",
+        "source.tsx meta.group.braces.round.tsx meta.group.braces.curly.tsx meta.function.arrow.tsx entity.name.function.tsx",
+        "source.tsx meta.group.braces.round.tsx meta.group.braces.curly.tsx meta.function.tsx entity.name.function.tsx",
+        "source.tsx meta.var.expr.tsx meta.var-single-variable.expr.tsx meta.definition.variable.tsx variable.other.readwrite.tsx",
+        "source.tsx meta.group.braces.round.tsx meta.group.braces.curly.tsx meta.class.tsx meta.group.braces.curly.tsx variable.other.readwrite.tsx",
+        "source.tsx meta.function.tsx entity.name.function.tsx",
+        "source.tsx meta.function.arrow.tsx entity.name.function.tsx"
+      ],
+      "settings": {
+        "foreground": "#6CAFEC"
+      }
+    },
+    {
+      "scope": "source.tsx meta.var.expr.tsx meta.var-single-variable.expr.tsx meta.definition.variable.tsx entity.name.function.tsx",
+      "settings": {
+        "foreground": "#6CAFEC"
+      }
+    },
+    {
+      "scope": [
+        "variable.other.readwrite.alias.tsx",
+        " meta.import.tsx ",
+        "source.tsx"
+      ],
+      "settings": {
+        "foreground": "#6CAFEC"
+      }
+    },
+    {
+      "scope": "source.tsx meta.var.expr.tsx meta.array-binding-pattern-variable.tsx meta.definition.variable.tsx variable.other.readwrite.tsx",
+      "settings": {
+        "foreground": "#6CAFEC"
+      }
+    },
+    {
+      "scope": "source.tsx variable.other.readwrite.tsx",
+      "settings": {
+        "foreground": "#6CAFEC"
+      }
+    },
+    {
+      "scope": "source.tsx meta.arrow.tsx meta.block.tsx meta.var.expr.tsx meta.array-binding-pattern-variable.tsx meta.definition.variable.tsx variable.other.readwrite.tsx",
+      "settings": {
+        "foreground": "#6CAFEC"
+      }
+    },
+    {
+      "scope": [
+        "variable.other.constant.tsx",
+        "keyword.control.switch.tsx",
+        "keyword.control.conditional.tsx"
+      ],
+      "settings": {
+        "foreground": "#C178DD"
+      }
+    },
+    {
+      "scope": "source.tsx meta.for.tsx keyword.control.loop.tsx",
+      "settings": {
+        "foreground": "#6CAFEC"
+      }
+    },
+    {
+      "scope": "source.tsx meta.class.tsx entity.name.class.tsx",
+      "settings": {
+        "foreground": "#6CAFEC"
+      }
+    },
+    {
+      "scope": [
+        "variable",
+        "entity.name.function",
+        "meta.var.expr.tsx",
+        "support.variable.dom.tsx",
+        "support.function",
+        "source.tsx meta.class.tsx meta.function.arrow.tsx entity.name.function.tsx"
+      ],
+      "settings": {
+        "foreground": "#ABB2BF"
+      }
+    },
+    {
+      "scope": [
+        "support.class",
+        "support.function.console.tsx",
+        "storage.type.function.arrow.tsx",
+        "source.tsx keyword.operator",
+        "punctuation.separator.key-value.tsx",
+        "entity.name.type.tsx",
+        "support.variable.property.tsx",
+        "source.tsx meta.class.tsx entity.other.inherited-class.tsx",
+        "source.tsx meta.group.braces.round.tsx meta.group.braces.curly.tsx meta.group.braces.curly.tsx support.type.object.dom.tsx"
+      ],
+      "settings": {
+        "foreground": "#ABB2BF"
+      }
+    },
+    {
+      "scope": "source.tsx entity.name.function.tsx",
+      "settings": {
+        "foreground": "#ABB2BF"
+      }
+    },
+    {
+      "scope": [
+        "source.tsx meta.group.braces.curly.tsx meta.group.braces.square.tsx variable.other.readwrite.tsx",
+        "source.tsx meta.class.tsx meta.function-call.without-arguments.tsx variable.function.tsx",
+        "source.tsx punctuation.section.embedded.begin.tsxx",
+        "source.tsx punctuation.section.embedded.end.tsxx"
+      ],
+      "settings": {
+        "foreground": "#ABB2BF"
+      }
+    },
+    {
+      "scope": "source.tsx support.type.object.console.tsx",
+      "settings": {
+        "foreground": "#ABB2BF"
+      }
+    },
+    {
+      "scope": "source.tsx meta.group.braces.round.tsx",
+      "settings": {
+        "foreground": "#ABB2BF"
+      }
+    },
+    {
+      "scope": "source.tsx meta.var.expr.tsx meta.objectliteral.tsx meta.object.member.tsx variable.other.readwrite.tsx",
+      "settings": {
+        "foreground": "#ABB2BF"
+      }
+    },
+    {
+      "scope": "source.tsx meta.group.braces.round.tsx meta.group.braces.curly.tsx meta.group.braces.curly.tsx meta.group.braces.curly.tsx meta.group.braces.round.tsx meta.group.braces.curly.tsx constant.other.object.key.tsx string.unquoted.label.tsx",
+      "settings": {
+        "foreground": "#ABB2BF"
+      }
+    },
+    {
+      "scope": [
+        "source.tsx support.variable.property.dom.tsx",
+        "source.tsx support.type.object.dom.tsx",
+        "source.tsx  meta.group.braces.curly.tsx variable.other.readwrite.tsx",
+        "source.tsx meta.class.tsx meta.class.property.tsx meta.group.braces.curly.tsx meta.brace.curly.begin.tsx",
+        "source.tsx meta.class.tsx meta.class.property.tsx meta.group.braces.curly.tsx meta.brace.curly.end.tsx",
+        "source.tsx meta.class.tsx meta.class.property.tsx meta.group.braces.curly.tsx meta.group.braces.square.tsx meta.brace.square.end.tsx",
+        "source.tsx meta.class.tsx meta.class.property.tsx meta.group.braces.curly.tsx meta.group.braces.square.tsx meta.brace.square.begin.tsx",
+        "source.tsx meta.class.tsx meta.class.property.tsx meta.group.braces.curly.tsx meta.group.braces.square.tsx",
+        "source.tsx meta.class.tsx meta.class.property.tsx meta.group.braces.curly.tsx meta.property.object.tsx",
+        "source.tsx meta.class.tsx meta.class.property.tsx meta.group.braces.curly.tsx meta.delimiter.comma.tsx",
+        "source.tsx meta.class.tsx meta.class.property.tsx meta.group.braces.curly.tsx meta.function-call.without-arguments.tsx meta.group.braces.round.function.arguments.tsx",
+        "source.tsx meta.class.tsx meta.class.property.tsx meta.group.braces.curly.tsx meta.function-call.method.without-arguments.tsx"
+      ],
+      "settings": {
+        "foreground": "#ABB2BF"
+      }
+    },
+    {
+      "scope": "source.tsx meta.var.expr.tsx variable.other.readwrite.tsx",
+      "settings": {
+        "foreground": "#ABB2BF"
+      }
+    },
+    {
+      "scope": "source.tsx string.unquoted.label.tsx",
+      "settings": {
+        "foreground": "#ABB2BF"
+      }
+    },
+    {
+      "scope": [
+        "punctuation.section.embedded.begin.tsx",
+        "meta.embedded.expression.tsx",
+        "meta.jsx.children.tsx",
+        "meta.tag.without-attributes.tsx",
+        "meta.block.tsx",
+        "meta.arrow.tsx",
+        "meta.var.expr.tsx",
+        "source.tsx"
+      ],
+      "settings": {
+        "foreground": "#ABB2BF"
+      }
+    },
+    {
+      "scope": [
+        "punctuation.section.embedded.end.tsx",
+        "meta.embedded.expression.tsx",
+        "meta.jsx.children.tsx",
+        "meta.tag.without-attributes.tsx",
+        "meta.block.tsx",
+        "meta.arrow.tsx",
+        "meta.var.expr.tsx",
+        "source.tsx"
+      ],
+      "settings": {
+        "foreground": "#ABB2BF"
+      }
+    },
+    {
+      "scope": [
+        "punctuation.definition.binding-pattern.object.tsx",
+        "meta.parameter.object-binding-pattern.tsx",
+        "meta.parameters.tsx",
+        "meta.arrow.tsx",
+        "meta.var.expr.tsx",
+        "source.tsx"
+      ],
+      "settings": {
+        "foreground": "#ABB2BF"
+      }
+    },
+    {
+      "scope": [
+        "entity.name.type.module.tsx",
+        "meta.type.annotation.tsx",
+        "meta.parameters.tsx",
+        "meta.type.function.tsx",
+        "meta.type.annotation.tsx",
+        "meta.field.declaration.tsx",
+        "meta.object.type.tsx",
+        "meta.type.declaration.tsx",
+        "source.tsx"
+      ],
+      "settings": {
+        "foreground": "#ABB2BF"
+      }
+    },
+    {
+      "scope": "source.tsx meta.function-call.tsx variable.other.object.tsx",
+      "settings": {
+        "foreground": "#C178DD"
+      }
+    },
+    {
+      "scope": ["source.tsx variable.other.object.tsx"],
+      "settings": {
+        "foreground": "#C178DD"
+      }
+    },
+    {
+      "scope": "source.tsx meta.function.tsx meta.block.tsx meta.var.expr.tsx meta.objectliteral.tsx meta.object.member.tsx variable.other.readwrite.tsx",
+      "settings": {
+        "foreground": "#C178DD"
+      }
+    },
+    {
+      "scope": "source.tsx meta.class.tsx meta.method.declaration.tsx meta.block.tsx variable.other.readwrite.tsx",
+      "settings": {
+        "foreground": "#C178DD"
+      }
+    },
+    {
+      "scope": "source.tsx meta.class.tsx meta.group.braces.curly.tsx meta.group.braces.square.tsx variable.other.readwrite.tsx",
+      "settings": {
+        "foreground": "#C178DD"
+      }
+    },
+    {
+      "scope": "source.tsx meta.var.expr.tsx meta.function.expression.tsx meta.block.tsx variable.other.readwrite.tsx",
+      "settings": {
+        "foreground": "#C178DD"
+      }
+    },
+    {
+      "scope": "source.tsx meta.var.expr.tsx meta.function.expression.tsx meta.block.tsx meta.var.expr.tsx variable.language.arguments.tsx",
+      "settings": {
+        "foreground": "#C178DD"
+      }
+    },
+    {
+      "scope": "source.tsx meta.group.braces.round.tsx meta.group.braces.curly.tsx meta.group.braces.curly.tsx meta.group.braces.curly.tsx meta.group.braces.round.tsx meta.group.braces.round.tsx meta.property.class.tsx variable.other.class.tsx",
+      "settings": {
+        "foreground": "#C178DD"
+      }
+    },
+    {
+      "scope": "source.tsx meta.group.braces.round.tsx meta.group.braces.curly.tsx meta.group.braces.curly.tsx meta.group.braces.curly.tsx meta.group.braces.round.tsx meta.property.class.tsx variable.other.class.tsx",
+      "settings": {
+        "foreground": "#C178DD"
+      }
+    },
+
+    {
+      "scope": [
+        "source.tsx meta.group.braces.round.tsx meta.group.braces.curly.tsx meta.group.braces.curly.tsx meta.group.braces.curly.tsx meta.group.braces.round.tsx variable.other.readwrite.tsx",
+        "source.tsx meta.group.braces.round.tsx meta.group.braces.curly.tsx meta.group.braces.curly.tsx meta.group.braces.round.tsx variable.other.readwrite.tsx",
+        "source.tsx meta.group.braces.round.tsx meta.group.braces.curly.tsx meta.group.braces.curly.tsx meta.group.braces.round.tsx meta.group.braces.round.tsx variable.other.constant.tsx",
+        "source.tsx meta.group.braces.round.tsx meta.group.braces.curly.tsx meta.group.braces.curly.tsx meta.group.braces.round.tsx variable.other.constant.tsx",
+        "source.tsx meta.function-call.without-arguments.tsx variable.function.tsx",
+        "source.tsx meta.embedded.expression.tsxx variable.other.readwrite.tsx",
+        "source.tsx meta.class.tsx meta.group.braces.curly.tsx meta.group.braces.round.tsx meta.group.braces.curly.tsx variable.other.readwrite.tsx",
+        "source.tsx variable.language.super.tsx",
+        "source.tsx meta.group.braces.curly.tsx meta.group.braces.round.tsx  variable.other.readwrite.tsx",
+        "source.tsx meta.class.tsx meta.class.property.tsx meta.group.braces.curly.tsx meta.group.braces.round.tsx variable.other.readwrite.tsx"
+      ],
+      "settings": {
+        "foreground": "#C178DD"
+      }
+    },
+    {
+      "scope": [
+        "source.tsx meta.group.braces.round.tsx meta.group.braces.curly.tsx meta.group.braces.curly.tsx meta.group.braces.curly.tsx string.interpolated.tsx keyword.other.template.begin.tsx",
+        "source.tsx meta.group.braces.round.tsx meta.group.braces.curly.tsx meta.group.braces.curly.tsx meta.group.braces.curly.tsx string.interpolated.tsx keyword.other.template.end.tsx",
+        "source.tsx string.interpolated.tsx keyword.other.template.end.tsx",
+        "source.tsx string.interpolated.tsx keyword.other.template.begin.tsx",
+        "source.tsx keyword.other.substitution.begin.tsx",
+        "source.tsx keyword.other.substitution.end.tsx"
+      ],
+      "settings": {
+        "foreground": "#98C379"
+      }
+    },
+    {
+      "scope": [
+        "entity.name.type.tsx",
+        "meta.type.parameters.tsx",
+        "meta.var.expr.tsx",
+        "meta.block.tsx",
+        "meta.arrow.tsx",
+        "meta.var.expr.tsx",
+        "source.tsx"
+      ],
+      "settings": {
+        "foreground": "#56B6C2"
+      }
+    },
+    {
+      "scope": ["meta.object-literal.key.tsx"],
+      "settings": {
+        "foreground": "#ABB2BF"
+      }
+    },
+    {
+      "scope": [
+        "support.type.primitive.tsx",
+        "meta.type.parameters.tsx",
+        "meta.var.expr.tsx",
+        "meta.block.tsx",
+        "meta.arrow.tsx",
+        "meta.var.expr.tsx",
+        "source.tsx"
+      ],
+      "settings": {
+        "foreground": "#56B6C2"
+      }
+    },
+    {
+      "scope": [
+        "source.tsx meta.function-call.tsx variable.other.object.tsx",
+        "source.tsx meta.function.tsx entity.name.function.tsx",
+        " variable.other.constant.tsx meta.definition.variable.tsx meta.array-binding-pattern-variable.tsx meta.var.expr.tsx meta.block.tsx meta.function.tsx source.tsx",
+        "source.tsx variable.other.readwrite.tsx",
+        "source.tsx meta.function.tsx meta.block.tsx meta.var.expr.tsx meta.array-binding-pattern-variable.tsx meta.definition.variable.tsx variable.other.constant.tsx"
+      ],
+      "settings": {
+        "foreground": "#ABB2BF"
+      }
+    },
+    {
+      "scope": [
+        "meta.block.tsx",
+        "source.tsx meta.object.member.tsx variable.other.readwrite.tsx"
+      ],
+      "settings": {
+        "foreground": "#ABB2BF"
+      }
+    },
+    {
+      "scope": [
+        "source.tsx meta.embedded.expression.tsx variable.other.readwrite.tsx",
+        "source.tsx meta.block.tsx variable.other.readwrite.tsx"
+      ],
+      "settings": {
+        "foreground": "#C178DD"
+      }
+    },
+    {
+      "scope": ["entity.name.type.module.ts"],
+      "settings": {
+        "foreground": "#C178DD"
+      }
+    },
+    {
+      "scope": ["keyword.operator.expression.typeof.ts"],
+      "settings": {
+        "foreground": "#E06C75"
+      }
+    },
+    {
+      "scope": ["entity.name.type.ts"],
+      "settings": {
+        "foreground": "#ABB2BF"
+      }
+    },
+    {
+      "scope": ["source.ts meta.function-call.ts variable.other.object.ts"],
+      "settings": {
+        "foreground": "#ABB2BF"
+      }
+    },
+    {
+      "scope": [
+        "source.ts meta.function.ts meta.block.ts meta.objectliteral.ts meta.object.member.ts meta.object-literal.key.ts"
+      ],
+      "settings": {
+        "foreground": "#ABB2BF"
+      }
+    },
+    {
+      "scope": ["punctuation.definition.section.case-statement.ts"],
+      "settings": {
+        "foreground": "#ABB2BF"
+      }
+    },
+
+    {
+      "scope": [
+        "source.tsx meta.function.tsx meta.block.tsx meta.function-call.tsx support.function.json.tsx"
+      ],
+      "settings": {
+        "foreground": "#56B6C2"
+      }
+    },
+    {
+      "scope": [
+        "source.ts meta.function.ts meta.return.type.ts meta.object.type.ts meta.field.declaration.ts meta.type.annotation.ts entity.name.type.ts",
+        "source.ts meta.function.ts meta.parameters.ts meta.type.annotation.ts entity.name.type.ts"
+      ],
+      "settings": {
+        "foreground": "#56B6C2"
+      }
+    },
+    {
+      "scope": ["entity.name.type.alias.tsx", "variable.other.constant.tsx"],
+      "settings": {
+        "foreground": "#6CAFEC"
+      }
+    },
+    {
+      "scope": [
+        "source.tsx meta.export.default.tsx variable.other.readwrite.tsx"
+      ],
+      "settings": {
+        "foreground": "#6CAFEC"
+      }
+    },
+    {
+      "scope": [
+        "source.tsx meta.function.tsx meta.block.tsx meta.objectliteral.tsx meta.object.member.tsx variable.other.readwrite.tsx"
+      ],
+      "settings": {
+        "foreground": "#6CAFEC"
+      }
+    },
+
+    // --*********************************************************************--
+    // --************************** Typescript TS ****************************--
+    // --*********************************************************************--
+    {
+      "scope": [
+        "storage.type.ts",
+        "keyword.control.flow.ts",
+        "storage.type.function.ts",
+        "variable.language.this.ts",
+        "storage.type.class.ts",
+        "keyword.operator.new.ts",
+        "source.ts meta.class.ts storage.modifier.ts",
+        "source.ts meta.class.ts meta.method.declaration.ts meta.block.ts meta.function-call.ts variable.language.super.ts",
+        "source.ts keyword.operator.module.ts"
+      ],
+      "settings": {
+        "foreground": "#E06C75"
+      }
+    },
+    {
+      "scope": [
+        "storage.modifier.ts",
+        "storage.type.interface.ts",
+        "storage.type.enum.ts"
+      ],
+      "settings": {
+        "fontStyle": ""
+      }
+    },
+    {
+      "scope": ["source.ts keyword.operator"],
+      "settings": {
+        "foreground": "#E06C75"
+      }
+    },
+    {
+      "scope": ["entity.name.type.ts", "meta.type.parameters.ts support.type"],
+      "settings": {
+        "foreground": "#56B6C2"
+      }
+    },
+    {
+      "scope": [
+        "keyword.operator.type.annotation.ts",
+        "keyword.operator.assignment.ts",
+        "keyword.operator.type.ts",
+        "keyword.operator.arithmetic.ts",
+        "punctuation.definition.binding-pattern.object.ts",
+        "keyword.operator.ternary.ts",
+        "keyword.operator.optional.ts",
+        "keyword.operator.logical.ts",
+        "keyword.operator.spread.ts",
+        "source.ts keyword.operator"
+      ],
+      "settings": {
+        "foreground": "#ABB2BF"
+      }
+    },
+    {
+      "scope": ["support.type.builtin.ts"],
+      "settings": {
+        "foreground": "#E5C07B"
+      }
+    },
+    {
+      "scope": ["source.ts meta.class.ts entity.other.inherited-class.ts"],
+      "settings": {
+        "foreground": "#6CAFEC"
+      }
+    },
+    {
+      "scope": [
+        "source.ts meta.function.ts meta.block.ts meta.class.ts meta.method.declaration.ts meta.block.ts variable.other.property.ts"
+      ],
+      "settings": {
+        "foreground": "#6CAFEC"
+      }
+    },
+    {
+      "scope": [
+        "entity.name.type.interface.ts",
+        "entity.name.type.alias.ts",
+        "entity.other.inherited-class.ts",
+        "entity.name.type.enum.ts"
+      ],
+      "settings": {
+        "foreground": "#56B6C2"
+      }
+    },
+    {
+      "scope": [
+        "storage.type.ts",
+        "keyword.control.flow.ts",
+        "storage.type.function.ts",
+        "variable.language.this.ts",
+        "storage.type.class.ts",
+        "keyword.operator.new.ts",
+        "source.ts meta.class.ts storage.modifier.ts",
+        "source.ts meta.class.ts meta.method.declaration.ts meta.block.ts meta.function-call.ts variable.language.super.ts",
+        "source.ts variable.other.readwrite.ts"
+      ],
+      "settings": {
+        "foreground": "#E06C75",
+        "fontStyle": ""
+      }
+    },
+    {
+      "scope": ["source.ts variable.other.readwrite.ts"],
+      "settings": {
+        "foreground": "#E06C75"
+      }
+    },
+    {
+      "scope": ["keyword.control.import.ts", "meta.import.ts", "source.ts"],
+      "settings": {
+        "foreground": "#E06C75",
+        "fontStyle": ""
+      }
+    },
+    {
+      "scope": ["keyword.control.from.ts", "meta.import.ts", "source.ts"],
+      "settings": {
+        "foreground": "#E06C75",
+        "fontStyle": ""
+      }
+    },
+    {
+      "scope": ["keyword.control.export.ts", "meta.var.expr.ts", "source.ts"],
+      "settings": {
+        "foreground": "#E06C75",
+        "fontStyle": ""
+      }
+    },
+    {
+      "scope": [
+        "variable.other.readwrite.ts",
+        "variable.parameter",
+        "entity.name.type.class.ts",
+        "source.ts meta.function.ts meta.definition.function.ts entity.name.function.ts",
+        "source.ts meta.var.expr.ts meta.function.expression.ts meta.block.ts meta.var.expr.ts meta.arrow.ts meta.block.ts meta.var.expr.ts meta.var-single-variable.expr.ts meta.definition.variable.ts variable.other.readwrite.ts",
+        "source.ts meta.var.expr.ts meta.function.expression.ts meta.block.ts meta.objectliteral.ts meta.method.declaration.ts meta.block.ts meta.var.expr.ts meta.var-single-variable.expr.ts meta.definition.variable.ts variable.other.readwrite.ts",
+        "source.ts meta.var.expr.ts meta.function.expression.ts meta.block.ts meta.var.expr.ts meta.function.expression.ts meta.block.ts meta.var.expr.ts meta.var-single-variable.expr.ts meta.definition.variable.ts variable.other.readwrite.ts",
+        "entity.name.function.ts",
+        "source.ts meta.group.braces.round.ts meta.group.braces.curly.ts meta.function.arrow.ts entity.name.function.ts",
+        "source.ts meta.group.braces.round.ts meta.group.braces.curly.ts meta.function.ts entity.name.function.ts",
+        "source.ts meta.var.expr.ts meta.var-single-variable.expr.ts meta.definition.variable.ts variable.other.readwrite.ts",
+        "source.ts meta.group.braces.round.ts meta.group.braces.curly.ts meta.class.ts meta.group.braces.curly.ts variable.other.readwrite.ts",
+        "source.ts meta.function.ts entity.name.function.ts",
+        "source.ts meta.function.arrow.ts entity.name.function.ts"
+      ],
+      "settings": {
+        "foreground": "#6CAFEC"
+      }
+    },
+    {
+      "scope": "source.ts meta.var.expr.ts meta.var-single-variable.expr.ts meta.definition.variable.ts entity.name.function.ts",
+      "settings": {
+        "foreground": "#6CAFEC"
+      }
+    },
+    {
+      "scope": "source.ts meta.var.expr.ts meta.array-binding-pattern-variable.ts meta.definition.variable.ts variable.other.readwrite.ts",
+      "settings": {
+        "foreground": "#6CAFEC"
+      }
+    },
+    {
+      "scope": "source.ts variable.other.readwrite.ts",
+      "settings": {
+        "foreground": "#6CAFEC"
+      }
+    },
+    {
+      "scope": "source.ts meta.arrow.ts meta.block.ts meta.var.expr.ts meta.array-binding-pattern-variable.ts meta.definition.variable.ts variable.other.readwrite.ts",
+      "settings": {
+        "foreground": "#6CAFEC"
+      }
+    },
+    {
+      "scope": "variable.other.constant.ts",
+      "settings": {
+        "foreground": "#6CAFEC"
+      }
+    },
+    {
+      "scope": "source.ts meta.for.ts keyword.control.loop.ts",
+      "settings": {
+        "foreground": "#6CAFEC"
+      }
+    },
+    {
+      "scope": "source.ts meta.class.ts entity.name.class.ts",
+      "settings": {
+        "foreground": "#6CAFEC"
+      }
+    },
+    {
+      "scope": [
+        "variable.other.readwrite.alias.ts",
+        "meta.block.ts",
+        "meta.import.ts",
+        "source.ts"
+      ],
+      "settings": {
+        "foreground": "#6CAFEC"
+      }
+    },
+    {
+      "scope": [
+        "variable.other.readwrite.ts",
+        "meta.embedded.line.ts",
+        "meta.template.expression.ts",
+        "string.template.ts",
+        "meta.object.member.ts",
+        "meta.objectliteral.ts",
+        "meta.export.default.ts",
+        "source.ts"
+      ],
+      "settings": {
+        "foreground": "#6CAFEC"
+      }
+    },
+
+    {
+      "scope": [
+        "variable",
+        "entity.name.function",
+        "meta.var.expr.ts",
+        "support.variable.dom.ts",
+        "support.function",
+        "source.ts meta.class.ts meta.function.arrow.ts entity.name.function.ts"
+      ],
+      "settings": {
+        "foreground": "#ABB2BF"
+      }
+    },
+    {
+      "scope": [
+        "support.class",
+        "support.function.console.ts",
+        "storage.type.function.arrow.ts",
+        "source.ts keyword.operator",
+        "punctuation.separator.key-value.ts",
+        "entity.name.type.ts",
+        "support.variable.property.ts",
+        "source.ts meta.class.ts entity.other.inherited-class.ts",
+        "source.ts meta.group.braces.round.ts meta.group.braces.curly.ts meta.group.braces.curly.ts support.type.object.dom.ts"
+      ],
+      "settings": {
+        "foreground": "#ABB2BF"
+      }
+    },
+    {
+      "scope": [
+        "source.ts entity.name.function.ts",
+        "source.ts meta.function.ts entity.name.function.ts"
+      ],
+      "settings": {
+        "foreground": "#ABB2BF"
+      }
+    },
+    {
+      "scope": [
+        "source.ts meta.group.braces.curly.ts meta.group.braces.square.ts variable.other.readwrite.ts",
+        "source.ts meta.class.ts meta.function-call.without-arguments.ts variable.function.ts",
+        "source.ts punctuation.section.embedded.begin.tsx",
+        "source.ts punctuation.section.embedded.end.tsx"
+      ],
+      "settings": {
+        "foreground": "#ABB2BF"
+      }
+    },
+    {
+      "scope": "source.ts support.type.object.console.ts",
+      "settings": {
+        "foreground": "#ABB2BF"
+      }
+    },
+    {
+      "scope": "source.ts meta.group.braces.round.ts",
+      "settings": {
+        "foreground": "#ABB2BF"
+      }
+    },
+    {
+      "scope": "source.ts meta.var.expr.ts meta.objectliteral.ts meta.object.member.ts variable.other.readwrite.ts",
+      "settings": {
+        "foreground": "#ABB2BF"
+      }
+    },
+    {
+      "scope": "source.ts meta.group.braces.round.ts meta.group.braces.curly.ts meta.group.braces.curly.ts meta.group.braces.curly.ts meta.group.braces.round.ts meta.group.braces.curly.ts constant.other.object.key.ts string.unquoted.label.ts",
+      "settings": {
+        "foreground": "#ABB2BF"
+      }
+    },
+    {
+      "scope": [
+        "source.ts support.variable.property.dom.ts",
+        "source.ts support.type.object.dom.ts",
+        "source.ts  meta.group.braces.curly.ts variable.other.readwrite.ts",
+        "source.ts meta.class.ts meta.class.property.ts meta.group.braces.curly.ts meta.brace.curly.begin.ts",
+        "source.ts meta.class.ts meta.class.property.ts meta.group.braces.curly.ts meta.brace.curly.end.ts",
+        "source.ts meta.class.ts meta.class.property.ts meta.group.braces.curly.ts meta.group.braces.square.ts meta.brace.square.end.ts",
+        "source.ts meta.class.ts meta.class.property.ts meta.group.braces.curly.ts meta.group.braces.square.ts meta.brace.square.begin.ts",
+        "source.ts meta.class.ts meta.class.property.ts meta.group.braces.curly.ts meta.group.braces.square.ts",
+        "source.ts meta.class.ts meta.class.property.ts meta.group.braces.curly.ts meta.property.object.ts",
+        "source.ts meta.class.ts meta.class.property.ts meta.group.braces.curly.ts meta.delimiter.comma.ts",
+        "source.ts meta.class.ts meta.class.property.ts meta.group.braces.curly.ts meta.function-call.without-arguments.ts meta.group.braces.round.function.arguments.ts",
+        "source.ts meta.class.ts meta.class.property.ts meta.group.braces.curly.ts meta.function-call.method.without-arguments.ts"
+      ],
+      "settings": {
+        "foreground": "#ABB2BF"
+      }
+    },
+    {
+      "scope": "source.ts meta.var.expr.ts variable.other.readwrite.ts",
+      "settings": {
+        "foreground": "#ABB2BF"
+      }
+    },
+    {
+      "scope": [
+        "meta.object-literal.key.ts",
+        "meta.object.member.ts",
+        "meta.objectliteral.ts",
+        "meta.export.default.ts",
+        "source.ts"
+      ],
+      "settings": {
+        "foreground": "#ABB2BF"
+      }
+    },
+    {
+      "scope": "source.ts string.unquoted.label.ts",
+      "settings": {
+        "foreground": "#ABB2BF"
+      }
+    },
+
+    {
+      "scope": ["source.ts variable.other.object.ts"],
+      "settings": {
+        "foreground": "#C178DD"
+      }
+    },
+    {
+      "scope": "source.ts meta.function.ts meta.block.ts meta.var.expr.ts meta.objectliteral.ts meta.object.member.ts variable.other.readwrite.ts",
+      "settings": {
+        "foreground": "#C178DD"
+      }
+    },
+    {
+      "scope": "source.ts meta.class.ts meta.method.declaration.ts meta.block.ts variable.other.readwrite.ts",
+      "settings": {
+        "foreground": "#C178DD"
+      }
+    },
+    {
+      "scope": "source.ts meta.class.ts meta.group.braces.curly.ts meta.group.braces.square.ts variable.other.readwrite.ts",
+      "settings": {
+        "foreground": "#C178DD"
+      }
+    },
+    {
+      "scope": "source.ts meta.var.expr.ts meta.function.expression.ts meta.block.ts variable.other.readwrite.ts",
+      "settings": {
+        "foreground": "#C178DD"
+      }
+    },
+    {
+      "scope": "source.ts meta.var.expr.ts meta.function.expression.ts meta.block.ts meta.var.expr.ts variable.language.arguments.ts",
+      "settings": {
+        "foreground": "#C178DD"
+      }
+    },
+    {
+      "scope": "source.ts meta.group.braces.round.ts meta.group.braces.curly.ts meta.group.braces.curly.ts meta.group.braces.curly.ts meta.group.braces.round.ts meta.group.braces.round.ts meta.property.class.ts variable.other.class.ts",
+      "settings": {
+        "foreground": "#C178DD"
+      }
+    },
+    {
+      "scope": "source.ts meta.group.braces.round.ts meta.group.braces.curly.ts meta.group.braces.curly.ts meta.group.braces.curly.ts meta.group.braces.round.ts meta.property.class.ts variable.other.class.ts",
+      "settings": {
+        "foreground": "#C178DD"
+      }
+    },
+    {
+      "scope": [
+        "keyword.control.default.ts",
+        "meta.export.default.ts",
+        "source.tskeyword.control.default.ts",
+        "meta.export.default.ts",
+        "source.ts"
+      ],
+      "settings": {
+        "foreground": "#C178DD"
+      }
+    },
+    {
+      "scope": [
+        "source.ts meta.group.braces.round.ts meta.group.braces.curly.ts meta.group.braces.curly.ts meta.group.braces.curly.ts meta.group.braces.round.ts variable.other.readwrite.ts",
+        "source.ts meta.group.braces.round.ts meta.group.braces.curly.ts meta.group.braces.curly.ts meta.group.braces.round.ts variable.other.readwrite.ts",
+        "source.ts meta.group.braces.round.ts meta.group.braces.curly.ts meta.group.braces.curly.ts meta.group.braces.round.ts meta.group.braces.round.ts variable.other.constant.ts",
+        "source.ts meta.group.braces.round.ts meta.group.braces.curly.ts meta.group.braces.curly.ts meta.group.braces.round.ts variable.other.constant.ts",
+        "source.ts meta.function-call.without-arguments.ts variable.function.ts",
+        "source.ts meta.embedded.expression.tsx variable.other.readwrite.ts",
+        "source.ts meta.class.ts meta.group.braces.curly.ts meta.group.braces.round.ts meta.group.braces.curly.ts variable.other.readwrite.ts",
+        "source.ts variable.language.super.ts",
+        "source.ts meta.group.braces.curly.ts meta.group.braces.round.ts  variable.other.readwrite.ts",
+        "source.ts meta.class.ts meta.class.property.ts meta.group.braces.curly.ts meta.group.braces.round.ts variable.other.readwrite.ts"
+      ],
+      "settings": {
+        "foreground": "#C178DD"
+      }
+    },
+    {
+      "scope": [
+        "source.ts meta.group.braces.round.ts meta.group.braces.curly.ts meta.group.braces.curly.ts meta.group.braces.curly.ts string.interpolated.ts keyword.other.template.begin.ts",
+        "source.ts meta.group.braces.round.ts meta.group.braces.curly.ts meta.group.braces.curly.ts meta.group.braces.curly.ts string.interpolated.ts keyword.other.template.end.ts",
+        "source.ts string.interpolated.ts keyword.other.template.end.ts",
+        "source.ts string.interpolated.ts keyword.other.template.begin.ts",
+        "source.ts keyword.other.substitution.begin.ts",
+        "source.ts keyword.other.substitution.end.ts"
+      ],
+      "settings": {
+        "foreground": "#98C379"
+      }
+    },
+    {
+      "scope": [
+        "entity.name.type.ts",
+        "meta.type.parameters.ts",
+        "meta.block.ts",
+        "meta.block.ts",
+        "meta.arrow.ts",
+        "meta.var.expr.ts",
+        "source.ts"
+      ],
+      "settings": {
+        "foreground": "#56B6C2"
+      }
+    },
+    {
+      "scope": [
+        "storage.type.type.ts",
+        "meta.type.declaration.ts",
+        "source.ts"
+      ],
+      "settings": {
+        "fontStyle": ""
+      }
+    },
+    {
+      "scope": [
+        "entity.name.type.interface.ts",
+        "entity.name.type.alias.ts",
+        "entity.other.inherited-class.ts",
+        "entity.name.type.enum.ts",
+        "entity.name.type.alias.tsx",
+        "source.tsx meta.interface.tsx entity.name.type.interface.tsx"
+      ],
+      "settings": {
+        "foreground": "#6CAFEC"
+      }
+    },
+    {
+      "scope": [
+        "source.ts keyword.operator",
+        "keyword.operator.expression.keyof.ts"
+      ],
+      "settings": {
+        "foreground": "#E06C75"
+      }
+    },
+    {
+      "scope": ["entity.name.type.ts", "meta.type.parameters.ts support.type"],
+      "settings": {
+        "foreground": "#56B6C2"
+      }
+    },
+    {
+      "scope": [
+        "keyword.operator.type.annotation.ts",
+        "keyword.operator.assignment.ts",
+        "keyword.operator.type.ts",
+        "keyword.operator.arithmetic.ts",
+        "punctuation.definition.binding-pattern.object.ts",
+        "keyword.operator.ternary.ts",
+        "keyword.operator.optional.ts",
+        "keyword.operator.logical.ts",
+        "keyword.operator.spread.ts",
+        "source.ts keyword.operator"
+      ],
+      "settings": {
+        "foreground": "#ABB2BF"
+      }
+    },
+    {
+      "scope": ["support.type.builtin.ts"],
+      "settings": {
+        "foreground": "#E5C07B"
+      }
+    },
+    {
+      "scope": ["source.ts meta.class.ts entity.other.inherited-class.ts"],
+      "settings": {
+        "foreground": "#6CAFEC"
+      }
+    },
+    {
+      "scope": [
+        "source.ts meta.function.ts meta.block.ts meta.class.ts meta.method.declaration.ts meta.block.ts variable.other.property.ts"
+      ],
+      "settings": {
+        "foreground": "#6CAFEC"
+      }
+    },
+
+    // --*********************************************************************--
+    // --************************** Common ****************************--
+    // --*********************************************************************--
+    {
       "name": "Comment",
       "scope": ["comment"],
       "settings": {
@@ -355,13 +1802,7 @@
         "foreground": "#ABB2BF"
       }
     },
-    {
-      "name": "Support Class",
-      "scope": ["support.class"],
-      "settings": {
-        "foreground": "#E06C75"
-      }
-    },
+
     {
       "name": "Support Type",
       "scope": ["support.type"],
@@ -1999,1402 +3440,6 @@
       "scope": ["source.js variable.other.readwrite.js"],
       "settings": {
         "foreground": "#E06C75"
-      }
-    },
-    {
-      "scope": [
-        "variable.other.readwrite.js",
-        "variable.parameter",
-        "entity.name.type.class.js",
-        "source.js meta.function.js meta.definition.function.js entity.name.function.js",
-        "source.js meta.var.expr.js meta.function.expression.js meta.block.js meta.var.expr.js meta.arrow.js meta.block.js meta.var.expr.js meta.var-single-variable.expr.js meta.definition.variable.js variable.other.readwrite.js",
-        "source.js meta.var.expr.js meta.function.expression.js meta.block.js meta.objectliteral.js meta.method.declaration.js meta.block.js meta.var.expr.js meta.var-single-variable.expr.js meta.definition.variable.js variable.other.readwrite.js",
-        "source.js meta.var.expr.js meta.function.expression.js meta.block.js meta.var.expr.js meta.function.expression.js meta.block.js meta.var.expr.js meta.var-single-variable.expr.js meta.definition.variable.js variable.other.readwrite.js",
-        "entity.name.function.js",
-        "source.js meta.group.braces.round.js meta.group.braces.curly.js meta.function.arrow.js entity.name.function.js",
-        "source.js meta.group.braces.round.js meta.group.braces.curly.js meta.function.js entity.name.function.js",
-        "source.js meta.var.expr.js meta.var-single-variable.expr.js meta.definition.variable.js variable.other.readwrite.js",
-        "source.js meta.group.braces.round.js meta.group.braces.curly.js meta.class.js meta.group.braces.curly.js variable.other.readwrite.js",
-        "source.js meta.function.js entity.name.function.js",
-        "source.js meta.function.arrow.js entity.name.function.js"
-      ],
-      "settings": {
-        "foreground": "#6CAFEC"
-      }
-    },
-    {
-      "scope": "source.js meta.var.expr.js meta.var-single-variable.expr.js meta.definition.variable.js entity.name.function.js",
-      "settings": {
-        "foreground": "#6CAFEC"
-      }
-    },
-    {
-      "scope": "source.js meta.var.expr.js meta.array-binding-pattern-variable.js meta.definition.variable.js variable.other.readwrite.js",
-      "settings": {
-        "foreground": "#6CAFEC"
-      }
-    },
-    {
-      "scope": "source.js variable.other.readwrite.js",
-      "settings": {
-        "foreground": "#6CAFEC"
-      }
-    },
-    {
-      "scope": "source.js meta.arrow.js meta.block.js meta.var.expr.js meta.array-binding-pattern-variable.js meta.definition.variable.js variable.other.readwrite.js",
-      "settings": {
-        "foreground": "#6CAFEC"
-      }
-    },
-    {
-      "scope": "variable.other.constant.js",
-      "settings": {
-        "foreground": "#6CAFEC"
-      }
-    },
-    {
-      "scope": "source.js meta.for.js keyword.control.loop.js",
-      "settings": {
-        "foreground": "#6CAFEC"
-      }
-    },
-    {
-      "scope": "source.js meta.class.js entity.name.class.js",
-      "settings": {
-        "foreground": "#6CAFEC"
-      }
-    },
-    {
-      "scope": [
-        "variable",
-        "entity.name.function",
-        "meta.var.expr.js",
-        "support.variable.dom.js",
-        "support.function",
-        "source.js meta.class.js meta.function.arrow.js entity.name.function.js"
-      ],
-      "settings": {
-        "foreground": "#ABB2BF"
-      }
-    },
-    {
-      "scope": [
-        "support.class",
-        "support.function.console.js",
-        "storage.type.function.arrow.js",
-        "source.js keyword.operator",
-        "punctuation.separator.key-value.js",
-        "entity.name.type.js",
-        "support.variable.property.js",
-        "source.js meta.class.js entity.other.inherited-class.js",
-        "source.js meta.group.braces.round.js meta.group.braces.curly.js meta.group.braces.curly.js support.type.object.dom.js"
-      ],
-      "settings": {
-        "foreground": "#ABB2BF"
-      }
-    },
-    {
-      "scope": "source.js entity.name.function.js",
-      "settings": {
-        "foreground": "#ABB2BF"
-      }
-    },
-    {
-      "scope": [
-        "source.js meta.group.braces.curly.js meta.group.braces.square.js variable.other.readwrite.js",
-        "source.js meta.class.js meta.function-call.without-arguments.js variable.function.js",
-        "source.js punctuation.section.embedded.begin.jsx",
-        "source.js punctuation.section.embedded.end.jsx"
-      ],
-      "settings": {
-        "foreground": "#ABB2BF"
-      }
-    },
-    {
-      "scope": "source.js support.type.object.console.js",
-      "settings": {
-        "foreground": "#ABB2BF"
-      }
-    },
-    {
-      "scope": "source.js meta.group.braces.round.js",
-      "settings": {
-        "foreground": "#ABB2BF"
-      }
-    },
-    {
-      "scope": "source.js meta.var.expr.js meta.objectliteral.js meta.object.member.js variable.other.readwrite.js",
-      "settings": {
-        "foreground": "#ABB2BF"
-      }
-    },
-    {
-      "scope": "source.js meta.group.braces.round.js meta.group.braces.curly.js meta.group.braces.curly.js meta.group.braces.curly.js meta.group.braces.round.js meta.group.braces.curly.js constant.other.object.key.js string.unquoted.label.js",
-      "settings": {
-        "foreground": "#ABB2BF"
-      }
-    },
-    {
-      "scope": [
-        "source.js support.variable.property.dom.js",
-        "source.js support.type.object.dom.js",
-        "source.js  meta.group.braces.curly.js variable.other.readwrite.js",
-        "source.js meta.class.js meta.class.property.js meta.group.braces.curly.js meta.brace.curly.begin.js",
-        "source.js meta.class.js meta.class.property.js meta.group.braces.curly.js meta.brace.curly.end.js",
-        "source.js meta.class.js meta.class.property.js meta.group.braces.curly.js meta.group.braces.square.js meta.brace.square.end.js",
-        "source.js meta.class.js meta.class.property.js meta.group.braces.curly.js meta.group.braces.square.js meta.brace.square.begin.js",
-        "source.js meta.class.js meta.class.property.js meta.group.braces.curly.js meta.group.braces.square.js",
-        "source.js meta.class.js meta.class.property.js meta.group.braces.curly.js meta.property.object.js",
-        "source.js meta.class.js meta.class.property.js meta.group.braces.curly.js meta.delimiter.comma.js",
-        "source.js meta.class.js meta.class.property.js meta.group.braces.curly.js meta.function-call.without-arguments.js meta.group.braces.round.function.arguments.js",
-        "source.js meta.class.js meta.class.property.js meta.group.braces.curly.js meta.function-call.method.without-arguments.js"
-      ],
-      "settings": {
-        "foreground": "#ABB2BF"
-      }
-    },
-    {
-      "scope": "source.js meta.var.expr.js variable.other.readwrite.js",
-      "settings": {
-        "foreground": "#ABB2BF"
-      }
-    },
-    {
-      "scope": "source.js string.unquoted.label.js",
-      "settings": {
-        "foreground": "#ABB2BF"
-      }
-    },
-    {
-      "scope": "source.js meta.function-call.js variable.other.object.js",
-      "settings": {
-        "foreground": "#C178DD"
-      }
-    },
-    {
-      "scope": ["source.js variable.other.object.js"],
-      "settings": {
-        "foreground": "#C178DD"
-      }
-    },
-    {
-      "scope": "source.js meta.function.js meta.block.js meta.var.expr.js meta.objectliteral.js meta.object.member.js variable.other.readwrite.js",
-      "settings": {
-        "foreground": "#C178DD"
-      }
-    },
-    {
-      "scope": "source.js meta.class.js meta.method.declaration.js meta.block.js variable.other.readwrite.js",
-      "settings": {
-        "foreground": "#C178DD"
-      }
-    },
-    {
-      "scope": "source.js meta.class.js meta.group.braces.curly.js meta.group.braces.square.js variable.other.readwrite.js",
-      "settings": {
-        "foreground": "#C178DD"
-      }
-    },
-    {
-      "scope": "source.js meta.var.expr.js meta.function.expression.js meta.block.js variable.other.readwrite.js",
-      "settings": {
-        "foreground": "#C178DD"
-      }
-    },
-    {
-      "scope": "source.js meta.var.expr.js meta.function.expression.js meta.block.js meta.var.expr.js variable.language.arguments.js",
-      "settings": {
-        "foreground": "#C178DD"
-      }
-    },
-    {
-      "scope": "source.js meta.group.braces.round.js meta.group.braces.curly.js meta.group.braces.curly.js meta.group.braces.curly.js meta.group.braces.round.js meta.group.braces.round.js meta.property.class.js variable.other.class.js",
-      "settings": {
-        "foreground": "#C178DD"
-      }
-    },
-    {
-      "scope": "source.js meta.group.braces.round.js meta.group.braces.curly.js meta.group.braces.curly.js meta.group.braces.curly.js meta.group.braces.round.js meta.property.class.js variable.other.class.js",
-      "settings": {
-        "foreground": "#C178DD"
-      }
-    },
-    {
-      "scope": [
-        "source.js meta.group.braces.round.js meta.group.braces.curly.js meta.group.braces.curly.js meta.group.braces.curly.js meta.group.braces.round.js variable.other.readwrite.js",
-        "source.js meta.group.braces.round.js meta.group.braces.curly.js meta.group.braces.curly.js meta.group.braces.round.js variable.other.readwrite.js",
-        "source.js meta.group.braces.round.js meta.group.braces.curly.js meta.group.braces.curly.js meta.group.braces.round.js meta.group.braces.round.js variable.other.constant.js",
-        "source.js meta.group.braces.round.js meta.group.braces.curly.js meta.group.braces.curly.js meta.group.braces.round.js variable.other.constant.js",
-        "source.js meta.function-call.without-arguments.js variable.function.js",
-        "source.js meta.embedded.expression.jsx variable.other.readwrite.js",
-        "source.js meta.class.js meta.group.braces.curly.js meta.group.braces.round.js meta.group.braces.curly.js variable.other.readwrite.js",
-        "source.js variable.language.super.js",
-        "source.js meta.group.braces.curly.js meta.group.braces.round.js  variable.other.readwrite.js",
-        "source.js meta.class.js meta.class.property.js meta.group.braces.curly.js meta.group.braces.round.js variable.other.readwrite.js"
-      ],
-      "settings": {
-        "foreground": "#C178DD"
-      }
-    },
-    {
-      "scope": [
-        "source.js meta.group.braces.round.js meta.group.braces.curly.js meta.group.braces.curly.js meta.group.braces.curly.js string.interpolated.js keyword.other.template.begin.js",
-        "source.js meta.group.braces.round.js meta.group.braces.curly.js meta.group.braces.curly.js meta.group.braces.curly.js string.interpolated.js keyword.other.template.end.js",
-        "source.js string.interpolated.js keyword.other.template.end.js",
-        "source.js string.interpolated.js keyword.other.template.begin.js",
-        "source.js keyword.other.substitution.begin.js",
-        "source.js keyword.other.substitution.end.js"
-      ],
-      "settings": {
-        "foreground": "#98C379"
-      }
-    },
-
-    // --*********************************************************************--
-    // --************************** JavaScript JSX ****************************--
-    // --*********************************************************************--
-
-    {
-      "scope": [
-        "source.js meta.function.js meta.block.js meta.tag.without-attributes.js meta.jsx.children.js meta.tag.without-attributes.js meta.jsx.children.js meta.tag.js meta.jsx.children.js meta.tag.js meta.tag.attributes.js meta.embedded.expression.js meta.function-call.js entity.name.function.js"
-      ],
-      "settings": {
-        "foreground": "#ABB2BF"
-      }
-    },
-
-    {
-      "scope": [
-        "source.js.jsx meta.var.expr.js.jsx meta.arrow.js.jsx meta.parameters.js.jsx meta.parameter.object-binding-pattern.js.jsx meta.tag.js.jsx entity.name.tag.js.jsx support.class.component.js.jsx"
-      ],
-      "settings": {
-        "foreground": "#E06C75"
-      }
-    },
-
-    {
-      "scope": ["source.js meta.export.default.js variable.other.readwrite.js"],
-      "settings": {
-        "foreground": "#6CAFEC"
-      }
-    },
-    {
-      "scope": [
-        "source.js.jsx meta.var.expr.js.jsx meta.arrow.js.jsx meta.block.js.jsx meta.var.expr.js.jsx variable.other.readwrite.js.jsx"
-      ],
-      "settings": {
-        "foreground": "#6CAFEC"
-      }
-    },
-    {
-      "scope": [
-        "source.js.jsx meta.var.expr.js.jsx meta.arrow.js.jsx meta.block.js.jsx meta.var.expr.js.jsx meta.arrow.js.jsx meta.block.js.jsx variable.other.readwrite.js.jsx"
-      ],
-      "settings": {
-        "foreground": "#6CAFEC"
-      }
-    },
-
-    {
-      "scope": [
-        "source.js.jsx meta.var.expr.js.jsx meta.arrow.js.jsx meta.block.js.jsx meta.var.expr.js.jsx meta.arrow.js.jsx meta.block.js.jsx meta.function-call.js.jsx variable.other.object.js.jsx",
-        "source.js.jsx meta.var.expr.js.jsx meta.arrow.js.jsx meta.block.js.jsx meta.tag.js.jsx meta.jsx.children.js.jsx meta.embedded.expression.js.jsx variable.other.readwrite.js.jsx"
-      ],
-      "settings": {
-        "foreground": "#C178DD"
-      }
-    },
-    {
-      "scope": [
-        "source.js meta.export.default.js meta.function.expression.js meta.block.js meta.var.expr.js meta.function-call.js variable.other.object.js"
-      ],
-      "settings": {
-        "foreground": "#C178DD"
-      }
-    },
-    {
-      "scope": ["source.js meta.var.expr.js variable.other.readwrite.js"],
-      "settings": {
-        "foreground": "#C178DD"
-      }
-    },
-    {
-      "scope": [
-        "source.js meta.var.expr.js meta.arrow.js meta.block.js meta.tag.js meta.tag.attributes.js meta.embedded.expression.js variable.other.readwrite.js"
-      ],
-      "settings": {
-        "foreground": "#C178DD"
-      }
-    },
-    {
-      "scope": [
-        "source.js meta.export.default.js meta.function.expression.js meta.block.js meta.tag.js meta.jsx.children.js meta.tag.js meta.jsx.children.js meta.tag.js meta.tag.attributes.js meta.embedded.expression.js variable.other.readwrite.js"
-      ],
-      "settings": {
-        "foreground": "#C178DD"
-      }
-    },
-    {
-      "scope": [
-        "source.js meta.export.default.js meta.function.expression.js meta.block.js meta.tag.js meta.jsx.children.js meta.embedded.expression.js meta.function-call.js variable.other.object.js"
-      ],
-      "settings": {
-        "foreground": "#C178DD"
-      }
-    },
-    {
-      "scope": [
-        "source.js meta.export.default.js meta.function.expression.js meta.block.js meta.var.expr.js meta.function-call.js entity.name.function.js"
-      ],
-      "settings": {
-        "foreground": "#ABB2BF"
-      }
-    },
-    {
-      "scope": [
-        "source.js meta.export.default.js meta.function.expression.js meta.block.js meta.tag.js meta.jsx.children.js meta.embedded.expression.js meta.function-call.js entity.name.function.js"
-      ],
-      "settings": {
-        "foreground": "#ABB2BF"
-      }
-    },
-    {
-      "scope": [
-        "source.js meta.export.default.js meta.function.expression.js meta.block.js meta.block.js meta.tag.js meta.tag.attributes.js meta.embedded.expression.js variable.other.readwrite.js"
-      ],
-      "settings": {
-        "foreground": "#C178DD"
-      }
-    },
-    {
-      "scope": [
-        "source.js meta.var.expr.js meta.arrow.js meta.block.js meta.function-call.js entity.name.function.js"
-      ],
-      "settings": {
-        "foreground": "#ABB2BF"
-      }
-    },
-    {
-      "scope": [
-        "source.js meta.export.default.js meta.function.expression.js meta.block.js meta.block.js meta.tag.js meta.tag.attributes.js meta.embedded.expression.js meta.function-call.js entity.name.function.js"
-      ],
-      "settings": {
-        "foreground": "#ABB2BF"
-      }
-    },
-
-    // --*********************************************************************--
-    // --************************** Typescript TS ****************************--
-    // --*********************************************************************--
-    {
-      "scope": [
-        "storage.type.ts",
-        "keyword.control.flow.ts",
-        "storage.type.function.ts",
-        "variable.language.this.ts",
-        "storage.type.class.ts",
-        "keyword.operator.new.ts",
-        "source.ts meta.class.ts storage.modifier.ts",
-        "source.ts meta.class.ts meta.method.declaration.ts meta.block.ts meta.function-call.ts variable.language.super.ts",
-        "source.ts keyword.operator.module.ts"
-      ],
-      "settings": {
-        "foreground": "#E06C75"
-      }
-    },
-    {
-      "scope": [
-        "storage.modifier.ts",
-        "storage.type.interface.ts",
-        "storage.type.enum.ts"
-      ],
-      "settings": {
-        "fontStyle": ""
-      }
-    },
-    {
-      "scope": ["source.ts keyword.operator"],
-      "settings": {
-        "foreground": "#E06C75"
-      }
-    },
-    {
-      "scope": ["entity.name.type.ts", "meta.type.parameters.ts support.type"],
-      "settings": {
-        "foreground": "#56B6C2"
-      }
-    },
-    {
-      "scope": [
-        "keyword.operator.type.annotation.ts",
-        "keyword.operator.assignment.ts",
-        "keyword.operator.type.ts",
-        "keyword.operator.arithmetic.ts",
-        "punctuation.definition.binding-pattern.object.ts",
-        "keyword.operator.ternary.ts",
-        "keyword.operator.optional.ts",
-        "keyword.operator.logical.ts",
-        "keyword.operator.spread.ts",
-        "source.ts keyword.operator"
-      ],
-      "settings": {
-        "foreground": "#ABB2BF"
-      }
-    },
-    {
-      "scope": ["support.type.builtin.ts"],
-      "settings": {
-        "foreground": "#E5C07B"
-      }
-    },
-    {
-      "scope": ["source.ts meta.class.ts entity.other.inherited-class.ts"],
-      "settings": {
-        "foreground": "#6CAFEC"
-      }
-    },
-    {
-      "scope": [
-        "source.ts meta.function.ts meta.block.ts meta.class.ts meta.method.declaration.ts meta.block.ts variable.other.property.ts"
-      ],
-      "settings": {
-        "foreground": "#6CAFEC"
-      }
-    },
-    {
-      "scope": [
-        "entity.name.type.interface.ts",
-        "entity.name.type.alias.ts",
-        "entity.other.inherited-class.ts",
-        "entity.name.type.enum.ts"
-      ],
-      "settings": {
-        "foreground": "#56B6C2"
-      }
-    },
-    {
-      "scope": [
-        "storage.type.ts",
-        "keyword.control.flow.ts",
-        "storage.type.function.ts",
-        "variable.language.this.ts",
-        "storage.type.class.ts",
-        "keyword.operator.new.ts",
-        "source.ts meta.class.ts storage.modifier.ts",
-        "source.ts meta.class.ts meta.method.declaration.ts meta.block.ts meta.function-call.ts variable.language.super.ts",
-        "source.ts variable.other.readwrite.ts"
-      ],
-      "settings": {
-        "foreground": "#E06C75",
-        "fontStyle": ""
-      }
-    },
-    {
-      "scope": ["source.ts variable.other.readwrite.ts"],
-      "settings": {
-        "foreground": "#E06C75"
-      }
-    },
-    {
-      "scope": ["keyword.control.import.ts", "meta.import.ts", "source.ts"],
-      "settings": {
-        "foreground": "#E06C75",
-        "fontStyle": ""
-      }
-    },
-    {
-      "scope": ["keyword.control.from.ts", "meta.import.ts", "source.ts"],
-      "settings": {
-        "foreground": "#E06C75",
-        "fontStyle": ""
-      }
-    },
-    {
-      "scope": ["keyword.control.export.ts", "meta.var.expr.ts", "source.ts"],
-      "settings": {
-        "foreground": "#E06C75",
-        "fontStyle": ""
-      }
-    },
-    {
-      "scope": [
-        "variable.other.readwrite.ts",
-        "variable.parameter",
-        "entity.name.type.class.ts",
-        "source.ts meta.function.ts meta.definition.function.ts entity.name.function.ts",
-        "source.ts meta.var.expr.ts meta.function.expression.ts meta.block.ts meta.var.expr.ts meta.arrow.ts meta.block.ts meta.var.expr.ts meta.var-single-variable.expr.ts meta.definition.variable.ts variable.other.readwrite.ts",
-        "source.ts meta.var.expr.ts meta.function.expression.ts meta.block.ts meta.objectliteral.ts meta.method.declaration.ts meta.block.ts meta.var.expr.ts meta.var-single-variable.expr.ts meta.definition.variable.ts variable.other.readwrite.ts",
-        "source.ts meta.var.expr.ts meta.function.expression.ts meta.block.ts meta.var.expr.ts meta.function.expression.ts meta.block.ts meta.var.expr.ts meta.var-single-variable.expr.ts meta.definition.variable.ts variable.other.readwrite.ts",
-        "entity.name.function.ts",
-        "source.ts meta.group.braces.round.ts meta.group.braces.curly.ts meta.function.arrow.ts entity.name.function.ts",
-        "source.ts meta.group.braces.round.ts meta.group.braces.curly.ts meta.function.ts entity.name.function.ts",
-        "source.ts meta.var.expr.ts meta.var-single-variable.expr.ts meta.definition.variable.ts variable.other.readwrite.ts",
-        "source.ts meta.group.braces.round.ts meta.group.braces.curly.ts meta.class.ts meta.group.braces.curly.ts variable.other.readwrite.ts",
-        "source.ts meta.function.ts entity.name.function.ts",
-        "source.ts meta.function.arrow.ts entity.name.function.ts"
-      ],
-      "settings": {
-        "foreground": "#6CAFEC"
-      }
-    },
-    {
-      "scope": "source.ts meta.var.expr.ts meta.var-single-variable.expr.ts meta.definition.variable.ts entity.name.function.ts",
-      "settings": {
-        "foreground": "#6CAFEC"
-      }
-    },
-    {
-      "scope": "source.ts meta.var.expr.ts meta.array-binding-pattern-variable.ts meta.definition.variable.ts variable.other.readwrite.ts",
-      "settings": {
-        "foreground": "#6CAFEC"
-      }
-    },
-    {
-      "scope": "source.ts variable.other.readwrite.ts",
-      "settings": {
-        "foreground": "#6CAFEC"
-      }
-    },
-    {
-      "scope": "source.ts meta.arrow.ts meta.block.ts meta.var.expr.ts meta.array-binding-pattern-variable.ts meta.definition.variable.ts variable.other.readwrite.ts",
-      "settings": {
-        "foreground": "#6CAFEC"
-      }
-    },
-    {
-      "scope": "variable.other.constant.ts",
-      "settings": {
-        "foreground": "#6CAFEC"
-      }
-    },
-    {
-      "scope": "source.ts meta.for.ts keyword.control.loop.ts",
-      "settings": {
-        "foreground": "#6CAFEC"
-      }
-    },
-    {
-      "scope": "source.ts meta.class.ts entity.name.class.ts",
-      "settings": {
-        "foreground": "#6CAFEC"
-      }
-    },
-    {
-      "scope": [
-        "variable.other.readwrite.alias.ts",
-        "meta.block.ts",
-        "meta.import.ts",
-        "source.ts"
-      ],
-      "settings": {
-        "foreground": "#6CAFEC"
-      }
-    },
-    {
-      "scope": [
-        "variable.other.readwrite.ts",
-        "meta.embedded.line.ts",
-        "meta.template.expression.ts",
-        "string.template.ts",
-        "meta.object.member.ts",
-        "meta.objectliteral.ts",
-        "meta.export.default.ts",
-        "source.ts"
-      ],
-      "settings": {
-        "foreground": "#6CAFEC"
-      }
-    },
-
-    {
-      "scope": [
-        "variable",
-        "entity.name.function",
-        "meta.var.expr.ts",
-        "support.variable.dom.ts",
-        "support.function",
-        "source.ts meta.class.ts meta.function.arrow.ts entity.name.function.ts"
-      ],
-      "settings": {
-        "foreground": "#ABB2BF"
-      }
-    },
-    {
-      "scope": [
-        "support.class",
-        "support.function.console.ts",
-        "storage.type.function.arrow.ts",
-        "source.ts keyword.operator",
-        "punctuation.separator.key-value.ts",
-        "entity.name.type.ts",
-        "support.variable.property.ts",
-        "source.ts meta.class.ts entity.other.inherited-class.ts",
-        "source.ts meta.group.braces.round.ts meta.group.braces.curly.ts meta.group.braces.curly.ts support.type.object.dom.ts"
-      ],
-      "settings": {
-        "foreground": "#ABB2BF"
-      }
-    },
-    {
-      "scope": [
-        "source.ts entity.name.function.ts",
-        "source.ts meta.function.ts entity.name.function.ts"
-      ],
-      "settings": {
-        "foreground": "#ABB2BF"
-      }
-    },
-    {
-      "scope": [
-        "source.ts meta.group.braces.curly.ts meta.group.braces.square.ts variable.other.readwrite.ts",
-        "source.ts meta.class.ts meta.function-call.without-arguments.ts variable.function.ts",
-        "source.ts punctuation.section.embedded.begin.tsx",
-        "source.ts punctuation.section.embedded.end.tsx"
-      ],
-      "settings": {
-        "foreground": "#ABB2BF"
-      }
-    },
-    {
-      "scope": "source.ts support.type.object.console.ts",
-      "settings": {
-        "foreground": "#ABB2BF"
-      }
-    },
-    {
-      "scope": "source.ts meta.group.braces.round.ts",
-      "settings": {
-        "foreground": "#ABB2BF"
-      }
-    },
-    {
-      "scope": "source.ts meta.var.expr.ts meta.objectliteral.ts meta.object.member.ts variable.other.readwrite.ts",
-      "settings": {
-        "foreground": "#ABB2BF"
-      }
-    },
-    {
-      "scope": "source.ts meta.group.braces.round.ts meta.group.braces.curly.ts meta.group.braces.curly.ts meta.group.braces.curly.ts meta.group.braces.round.ts meta.group.braces.curly.ts constant.other.object.key.ts string.unquoted.label.ts",
-      "settings": {
-        "foreground": "#ABB2BF"
-      }
-    },
-    {
-      "scope": [
-        "source.ts support.variable.property.dom.ts",
-        "source.ts support.type.object.dom.ts",
-        "source.ts  meta.group.braces.curly.ts variable.other.readwrite.ts",
-        "source.ts meta.class.ts meta.class.property.ts meta.group.braces.curly.ts meta.brace.curly.begin.ts",
-        "source.ts meta.class.ts meta.class.property.ts meta.group.braces.curly.ts meta.brace.curly.end.ts",
-        "source.ts meta.class.ts meta.class.property.ts meta.group.braces.curly.ts meta.group.braces.square.ts meta.brace.square.end.ts",
-        "source.ts meta.class.ts meta.class.property.ts meta.group.braces.curly.ts meta.group.braces.square.ts meta.brace.square.begin.ts",
-        "source.ts meta.class.ts meta.class.property.ts meta.group.braces.curly.ts meta.group.braces.square.ts",
-        "source.ts meta.class.ts meta.class.property.ts meta.group.braces.curly.ts meta.property.object.ts",
-        "source.ts meta.class.ts meta.class.property.ts meta.group.braces.curly.ts meta.delimiter.comma.ts",
-        "source.ts meta.class.ts meta.class.property.ts meta.group.braces.curly.ts meta.function-call.without-arguments.ts meta.group.braces.round.function.arguments.ts",
-        "source.ts meta.class.ts meta.class.property.ts meta.group.braces.curly.ts meta.function-call.method.without-arguments.ts"
-      ],
-      "settings": {
-        "foreground": "#ABB2BF"
-      }
-    },
-    {
-      "scope": "source.ts meta.var.expr.ts variable.other.readwrite.ts",
-      "settings": {
-        "foreground": "#ABB2BF"
-      }
-    },
-    {
-      "scope": [
-        "meta.object-literal.key.ts",
-        "meta.object.member.ts",
-        "meta.objectliteral.ts",
-        "meta.export.default.ts",
-        "source.ts"
-      ],
-      "settings": {
-        "foreground": "#ABB2BF"
-      }
-    },
-    {
-      "scope": "source.ts string.unquoted.label.ts",
-      "settings": {
-        "foreground": "#ABB2BF"
-      }
-    },
-
-    {
-      "scope": "source.ts meta.function-call.ts variable.other.object.ts",
-      "settings": {
-        "foreground": "#C178DD"
-      }
-    },
-    {
-      "scope": ["source.ts variable.other.object.ts"],
-      "settings": {
-        "foreground": "#C178DD"
-      }
-    },
-    {
-      "scope": "source.ts meta.function.ts meta.block.ts meta.var.expr.ts meta.objectliteral.ts meta.object.member.ts variable.other.readwrite.ts",
-      "settings": {
-        "foreground": "#C178DD"
-      }
-    },
-    {
-      "scope": "source.ts meta.class.ts meta.method.declaration.ts meta.block.ts variable.other.readwrite.ts",
-      "settings": {
-        "foreground": "#C178DD"
-      }
-    },
-    {
-      "scope": "source.ts meta.class.ts meta.group.braces.curly.ts meta.group.braces.square.ts variable.other.readwrite.ts",
-      "settings": {
-        "foreground": "#C178DD"
-      }
-    },
-    {
-      "scope": "source.ts meta.var.expr.ts meta.function.expression.ts meta.block.ts variable.other.readwrite.ts",
-      "settings": {
-        "foreground": "#C178DD"
-      }
-    },
-    {
-      "scope": "source.ts meta.var.expr.ts meta.function.expression.ts meta.block.ts meta.var.expr.ts variable.language.arguments.ts",
-      "settings": {
-        "foreground": "#C178DD"
-      }
-    },
-    {
-      "scope": "source.ts meta.group.braces.round.ts meta.group.braces.curly.ts meta.group.braces.curly.ts meta.group.braces.curly.ts meta.group.braces.round.ts meta.group.braces.round.ts meta.property.class.ts variable.other.class.ts",
-      "settings": {
-        "foreground": "#C178DD"
-      }
-    },
-    {
-      "scope": "source.ts meta.group.braces.round.ts meta.group.braces.curly.ts meta.group.braces.curly.ts meta.group.braces.curly.ts meta.group.braces.round.ts meta.property.class.ts variable.other.class.ts",
-      "settings": {
-        "foreground": "#C178DD"
-      }
-    },
-    {
-      "scope": [
-        "keyword.control.default.ts",
-        "meta.export.default.ts",
-        "source.tskeyword.control.default.ts",
-        "meta.export.default.ts",
-        "source.ts"
-      ],
-      "settings": {
-        "foreground": "#C178DD"
-      }
-    },
-    {
-      "scope": [
-        "source.ts meta.group.braces.round.ts meta.group.braces.curly.ts meta.group.braces.curly.ts meta.group.braces.curly.ts meta.group.braces.round.ts variable.other.readwrite.ts",
-        "source.ts meta.group.braces.round.ts meta.group.braces.curly.ts meta.group.braces.curly.ts meta.group.braces.round.ts variable.other.readwrite.ts",
-        "source.ts meta.group.braces.round.ts meta.group.braces.curly.ts meta.group.braces.curly.ts meta.group.braces.round.ts meta.group.braces.round.ts variable.other.constant.ts",
-        "source.ts meta.group.braces.round.ts meta.group.braces.curly.ts meta.group.braces.curly.ts meta.group.braces.round.ts variable.other.constant.ts",
-        "source.ts meta.function-call.without-arguments.ts variable.function.ts",
-        "source.ts meta.embedded.expression.tsx variable.other.readwrite.ts",
-        "source.ts meta.class.ts meta.group.braces.curly.ts meta.group.braces.round.ts meta.group.braces.curly.ts variable.other.readwrite.ts",
-        "source.ts variable.language.super.ts",
-        "source.ts meta.group.braces.curly.ts meta.group.braces.round.ts  variable.other.readwrite.ts",
-        "source.ts meta.class.ts meta.class.property.ts meta.group.braces.curly.ts meta.group.braces.round.ts variable.other.readwrite.ts"
-      ],
-      "settings": {
-        "foreground": "#C178DD"
-      }
-    },
-    {
-      "scope": [
-        "source.ts meta.group.braces.round.ts meta.group.braces.curly.ts meta.group.braces.curly.ts meta.group.braces.curly.ts string.interpolated.ts keyword.other.template.begin.ts",
-        "source.ts meta.group.braces.round.ts meta.group.braces.curly.ts meta.group.braces.curly.ts meta.group.braces.curly.ts string.interpolated.ts keyword.other.template.end.ts",
-        "source.ts string.interpolated.ts keyword.other.template.end.ts",
-        "source.ts string.interpolated.ts keyword.other.template.begin.ts",
-        "source.ts keyword.other.substitution.begin.ts",
-        "source.ts keyword.other.substitution.end.ts"
-      ],
-      "settings": {
-        "foreground": "#98C379"
-      }
-    },
-    {
-      "scope": [
-        "entity.name.type.ts",
-        "meta.type.parameters.ts",
-        "meta.block.ts",
-        "meta.block.ts",
-        "meta.arrow.ts",
-        "meta.var.expr.ts",
-        "source.ts"
-      ],
-      "settings": {
-        "foreground": "#56B6C2"
-      }
-    },
-    {
-      "scope": [
-        "storage.type.type.ts",
-        "meta.type.declaration.ts",
-        "source.ts"
-      ],
-      "settings": {
-        "fontStyle": ""
-      }
-    },
-    {
-      "scope": [
-        "entity.name.type.interface.ts",
-        "entity.name.type.alias.ts",
-        "entity.other.inherited-class.ts",
-        "entity.name.type.enum.ts",
-        "entity.name.type.alias.tsx",
-        "source.tsx meta.interface.tsx entity.name.type.interface.tsx"
-      ],
-      "settings": {
-        "foreground": "#6CAFEC"
-      }
-    },
-    // --*********************************************************************--
-    // --************************** Typescript TSX ****************************--
-    // --*********************************************************************--
-
-    {
-      "scope": [
-        "storage.type.tsx",
-        "keyword.control.flow.tsx",
-        "storage.type.function.tsx",
-        "variable.language.this.tsx",
-        "storage.type.class.tsx",
-        "keyword.operator.new.tsx",
-        "source.tsx meta.class.tsx storage.modifier.tsx",
-        "source.tsx meta.class.tsx meta.method.declaration.tsx meta.block.tsx meta.function-call.tsx variable.language.super.tsx",
-        "source.tsx keyword.operator.module.tsx"
-      ],
-      "settings": {
-        "foreground": "#E06C75",
-        "fontStyle": ""
-      }
-    },
-    {
-      "scope": [
-        "storage.type.tsx",
-        "keyword.control.flow.tsx",
-        "storage.type.function.tsx",
-        "variable.language.this.tsx",
-        "storage.type.class.tsx",
-        "keyword.operator.new.tsx",
-        "source.tsx meta.class.tsx storage.modifier.tsx",
-        "source.tsx meta.class.tsx meta.method.declaration.tsx meta.block.tsx meta.function-call.tsx variable.language.super.tsx",
-        "source.tsx variable.other.readwrite.tsx"
-      ],
-      "settings": {
-        "foreground": "#E06C75"
-      }
-    },
-    {
-      "scope": ["source.tsx variable.other.readwrite.tsx"],
-      "settings": {
-        "foreground": "#E06C75"
-      }
-    },
-    {
-      "scope": ["keyword.control.import.tsx", "meta.import.tsx", "source.tsx"],
-      "settings": {
-        "foreground": "#E06C75"
-      }
-    },
-    {
-      "scope": ["keyword.control.from.tsx", "meta.import.tsx", "source.tsx"],
-      "settings": {
-        "foreground": "#E06C75"
-      }
-    },
-    {
-      "scope": ["keyword.control.as.tsx", "meta.import.tsx", "source.tsx"],
-      "settings": {
-        "foreground": "#E06C75"
-      }
-    },
-    {
-      "scope": ["support.class.component.tsx"],
-      "settings": {
-        "foreground": "#E06C75"
-      }
-    },
-    {
-      "scope": [
-        "keyword.control.export.tsx",
-        "meta.var.expr.tsx",
-        "source.tsx"
-      ],
-      "settings": {
-        "foreground": "#E06C75"
-      }
-    },
-    {
-      "scope": [
-        "variable.other.readwrite.tsx",
-        "variable.parameter",
-        "entity.name.type.class.tsx",
-        "source.tsx meta.function.tsx meta.definition.function.tsx entity.name.function.tsx",
-        "source.tsx meta.var.expr.tsx meta.function.expression.tsx meta.block.tsx meta.var.expr.tsx meta.arrow.tsx meta.block.tsx meta.var.expr.tsx meta.var-single-variable.expr.tsx meta.definition.variable.tsx variable.other.readwrite.tsx",
-        "source.tsx meta.var.expr.tsx meta.function.expression.tsx meta.block.tsx meta.objectliteral.tsx meta.method.declaration.tsx meta.block.tsx meta.var.expr.tsx meta.var-single-variable.expr.tsx meta.definition.variable.tsx variable.other.readwrite.tsx",
-        "source.tsx meta.var.expr.tsx meta.function.expression.tsx meta.block.tsx meta.var.expr.tsx meta.function.expression.tsx meta.block.tsx meta.var.expr.tsx meta.var-single-variable.expr.tsx meta.definition.variable.tsx variable.other.readwrite.tsx",
-        "entity.name.function.tsx",
-        "source.tsx meta.group.braces.round.tsx meta.group.braces.curly.tsx meta.function.arrow.tsx entity.name.function.tsx",
-        "source.tsx meta.group.braces.round.tsx meta.group.braces.curly.tsx meta.function.tsx entity.name.function.tsx",
-        "source.tsx meta.var.expr.tsx meta.var-single-variable.expr.tsx meta.definition.variable.tsx variable.other.readwrite.tsx",
-        "source.tsx meta.group.braces.round.tsx meta.group.braces.curly.tsx meta.class.tsx meta.group.braces.curly.tsx variable.other.readwrite.tsx",
-        "source.tsx meta.function.tsx entity.name.function.tsx",
-        "source.tsx meta.function.arrow.tsx entity.name.function.tsx"
-      ],
-      "settings": {
-        "foreground": "#6CAFEC"
-      }
-    },
-    {
-      "scope": "source.tsx meta.var.expr.tsx meta.var-single-variable.expr.tsx meta.definition.variable.tsx entity.name.function.tsx",
-      "settings": {
-        "foreground": "#6CAFEC"
-      }
-    },
-    {
-      "scope": [
-        "variable.other.readwrite.alias.tsx",
-        " meta.import.tsx ",
-        "source.tsx"
-      ],
-      "settings": {
-        "foreground": "#6CAFEC"
-      }
-    },
-    {
-      "scope": "source.tsx meta.var.expr.tsx meta.array-binding-pattern-variable.tsx meta.definition.variable.tsx variable.other.readwrite.tsx",
-      "settings": {
-        "foreground": "#6CAFEC"
-      }
-    },
-    {
-      "scope": "source.tsx variable.other.readwrite.tsx",
-      "settings": {
-        "foreground": "#6CAFEC"
-      }
-    },
-    {
-      "scope": "source.tsx meta.arrow.tsx meta.block.tsx meta.var.expr.tsx meta.array-binding-pattern-variable.tsx meta.definition.variable.tsx variable.other.readwrite.tsx",
-      "settings": {
-        "foreground": "#6CAFEC"
-      }
-    },
-    {
-      "scope": [
-        "variable.other.constant.tsx",
-        "keyword.control.switch.tsx",
-        "keyword.control.conditional.tsx"
-      ],
-      "settings": {
-        "foreground": "#C178DD"
-      }
-    },
-    {
-      "scope": "source.tsx meta.for.tsx keyword.control.loop.tsx",
-      "settings": {
-        "foreground": "#6CAFEC"
-      }
-    },
-    {
-      "scope": "source.tsx meta.class.tsx entity.name.class.tsx",
-      "settings": {
-        "foreground": "#6CAFEC"
-      }
-    },
-    {
-      "scope": [
-        "variable",
-        "entity.name.function",
-        "meta.var.expr.tsx",
-        "support.variable.dom.tsx",
-        "support.function",
-        "source.tsx meta.class.tsx meta.function.arrow.tsx entity.name.function.tsx"
-      ],
-      "settings": {
-        "foreground": "#ABB2BF"
-      }
-    },
-    {
-      "scope": [
-        "support.class",
-        "support.function.console.tsx",
-        "storage.type.function.arrow.tsx",
-        "source.tsx keyword.operator",
-        "punctuation.separator.key-value.tsx",
-        "entity.name.type.tsx",
-        "support.variable.property.tsx",
-        "source.tsx meta.class.tsx entity.other.inherited-class.tsx",
-        "source.tsx meta.group.braces.round.tsx meta.group.braces.curly.tsx meta.group.braces.curly.tsx support.type.object.dom.tsx"
-      ],
-      "settings": {
-        "foreground": "#ABB2BF"
-      }
-    },
-    {
-      "scope": "source.tsx entity.name.function.tsx",
-      "settings": {
-        "foreground": "#ABB2BF"
-      }
-    },
-    {
-      "scope": [
-        "source.tsx meta.group.braces.curly.tsx meta.group.braces.square.tsx variable.other.readwrite.tsx",
-        "source.tsx meta.class.tsx meta.function-call.without-arguments.tsx variable.function.tsx",
-        "source.tsx punctuation.section.embedded.begin.tsxx",
-        "source.tsx punctuation.section.embedded.end.tsxx"
-      ],
-      "settings": {
-        "foreground": "#ABB2BF"
-      }
-    },
-    {
-      "scope": "source.tsx support.type.object.console.tsx",
-      "settings": {
-        "foreground": "#ABB2BF"
-      }
-    },
-    {
-      "scope": "source.tsx meta.group.braces.round.tsx",
-      "settings": {
-        "foreground": "#ABB2BF"
-      }
-    },
-    {
-      "scope": "source.tsx meta.var.expr.tsx meta.objectliteral.tsx meta.object.member.tsx variable.other.readwrite.tsx",
-      "settings": {
-        "foreground": "#ABB2BF"
-      }
-    },
-    {
-      "scope": "source.tsx meta.group.braces.round.tsx meta.group.braces.curly.tsx meta.group.braces.curly.tsx meta.group.braces.curly.tsx meta.group.braces.round.tsx meta.group.braces.curly.tsx constant.other.object.key.tsx string.unquoted.label.tsx",
-      "settings": {
-        "foreground": "#ABB2BF"
-      }
-    },
-    {
-      "scope": [
-        "source.tsx support.variable.property.dom.tsx",
-        "source.tsx support.type.object.dom.tsx",
-        "source.tsx  meta.group.braces.curly.tsx variable.other.readwrite.tsx",
-        "source.tsx meta.class.tsx meta.class.property.tsx meta.group.braces.curly.tsx meta.brace.curly.begin.tsx",
-        "source.tsx meta.class.tsx meta.class.property.tsx meta.group.braces.curly.tsx meta.brace.curly.end.tsx",
-        "source.tsx meta.class.tsx meta.class.property.tsx meta.group.braces.curly.tsx meta.group.braces.square.tsx meta.brace.square.end.tsx",
-        "source.tsx meta.class.tsx meta.class.property.tsx meta.group.braces.curly.tsx meta.group.braces.square.tsx meta.brace.square.begin.tsx",
-        "source.tsx meta.class.tsx meta.class.property.tsx meta.group.braces.curly.tsx meta.group.braces.square.tsx",
-        "source.tsx meta.class.tsx meta.class.property.tsx meta.group.braces.curly.tsx meta.property.object.tsx",
-        "source.tsx meta.class.tsx meta.class.property.tsx meta.group.braces.curly.tsx meta.delimiter.comma.tsx",
-        "source.tsx meta.class.tsx meta.class.property.tsx meta.group.braces.curly.tsx meta.function-call.without-arguments.tsx meta.group.braces.round.function.arguments.tsx",
-        "source.tsx meta.class.tsx meta.class.property.tsx meta.group.braces.curly.tsx meta.function-call.method.without-arguments.tsx"
-      ],
-      "settings": {
-        "foreground": "#ABB2BF"
-      }
-    },
-    {
-      "scope": "source.tsx meta.var.expr.tsx variable.other.readwrite.tsx",
-      "settings": {
-        "foreground": "#ABB2BF"
-      }
-    },
-    {
-      "scope": "source.tsx string.unquoted.label.tsx",
-      "settings": {
-        "foreground": "#ABB2BF"
-      }
-    },
-    {
-      "scope": [
-        "punctuation.section.embedded.begin.tsx",
-        "meta.embedded.expression.tsx",
-        "meta.jsx.children.tsx",
-        "meta.tag.without-attributes.tsx",
-        "meta.block.tsx",
-        "meta.arrow.tsx",
-        "meta.var.expr.tsx",
-        "source.tsx"
-      ],
-      "settings": {
-        "foreground": "#ABB2BF"
-      }
-    },
-    {
-      "scope": [
-        "punctuation.section.embedded.end.tsx",
-        "meta.embedded.expression.tsx",
-        "meta.jsx.children.tsx",
-        "meta.tag.without-attributes.tsx",
-        "meta.block.tsx",
-        "meta.arrow.tsx",
-        "meta.var.expr.tsx",
-        "source.tsx"
-      ],
-      "settings": {
-        "foreground": "#ABB2BF"
-      }
-    },
-    {
-      "scope": [
-        "punctuation.definition.binding-pattern.object.tsx",
-        "meta.parameter.object-binding-pattern.tsx",
-        "meta.parameters.tsx",
-        "meta.arrow.tsx",
-        "meta.var.expr.tsx",
-        "source.tsx"
-      ],
-      "settings": {
-        "foreground": "#ABB2BF"
-      }
-    },
-    {
-      "scope": [
-        "entity.name.type.module.tsx",
-        "meta.type.annotation.tsx",
-        "meta.parameters.tsx",
-        "meta.type.function.tsx",
-        "meta.type.annotation.tsx",
-        "meta.field.declaration.tsx",
-        "meta.object.type.tsx",
-        "meta.type.declaration.tsx",
-        "source.tsx"
-      ],
-      "settings": {
-        "foreground": "#ABB2BF"
-      }
-    },
-    {
-      "scope": "source.tsx meta.function-call.tsx variable.other.object.tsx",
-      "settings": {
-        "foreground": "#C178DD"
-      }
-    },
-    {
-      "scope": ["source.tsx variable.other.object.tsx"],
-      "settings": {
-        "foreground": "#C178DD"
-      }
-    },
-    {
-      "scope": "source.tsx meta.function.tsx meta.block.tsx meta.var.expr.tsx meta.objectliteral.tsx meta.object.member.tsx variable.other.readwrite.tsx",
-      "settings": {
-        "foreground": "#C178DD"
-      }
-    },
-    {
-      "scope": "source.tsx meta.class.tsx meta.method.declaration.tsx meta.block.tsx variable.other.readwrite.tsx",
-      "settings": {
-        "foreground": "#C178DD"
-      }
-    },
-    {
-      "scope": "source.tsx meta.class.tsx meta.group.braces.curly.tsx meta.group.braces.square.tsx variable.other.readwrite.tsx",
-      "settings": {
-        "foreground": "#C178DD"
-      }
-    },
-    {
-      "scope": "source.tsx meta.var.expr.tsx meta.function.expression.tsx meta.block.tsx variable.other.readwrite.tsx",
-      "settings": {
-        "foreground": "#C178DD"
-      }
-    },
-    {
-      "scope": "source.tsx meta.var.expr.tsx meta.function.expression.tsx meta.block.tsx meta.var.expr.tsx variable.language.arguments.tsx",
-      "settings": {
-        "foreground": "#C178DD"
-      }
-    },
-    {
-      "scope": "source.tsx meta.group.braces.round.tsx meta.group.braces.curly.tsx meta.group.braces.curly.tsx meta.group.braces.curly.tsx meta.group.braces.round.tsx meta.group.braces.round.tsx meta.property.class.tsx variable.other.class.tsx",
-      "settings": {
-        "foreground": "#C178DD"
-      }
-    },
-    {
-      "scope": "source.tsx meta.group.braces.round.tsx meta.group.braces.curly.tsx meta.group.braces.curly.tsx meta.group.braces.curly.tsx meta.group.braces.round.tsx meta.property.class.tsx variable.other.class.tsx",
-      "settings": {
-        "foreground": "#C178DD"
-      }
-    },
-
-    {
-      "scope": [
-        "source.tsx meta.group.braces.round.tsx meta.group.braces.curly.tsx meta.group.braces.curly.tsx meta.group.braces.curly.tsx meta.group.braces.round.tsx variable.other.readwrite.tsx",
-        "source.tsx meta.group.braces.round.tsx meta.group.braces.curly.tsx meta.group.braces.curly.tsx meta.group.braces.round.tsx variable.other.readwrite.tsx",
-        "source.tsx meta.group.braces.round.tsx meta.group.braces.curly.tsx meta.group.braces.curly.tsx meta.group.braces.round.tsx meta.group.braces.round.tsx variable.other.constant.tsx",
-        "source.tsx meta.group.braces.round.tsx meta.group.braces.curly.tsx meta.group.braces.curly.tsx meta.group.braces.round.tsx variable.other.constant.tsx",
-        "source.tsx meta.function-call.without-arguments.tsx variable.function.tsx",
-        "source.tsx meta.embedded.expression.tsxx variable.other.readwrite.tsx",
-        "source.tsx meta.class.tsx meta.group.braces.curly.tsx meta.group.braces.round.tsx meta.group.braces.curly.tsx variable.other.readwrite.tsx",
-        "source.tsx variable.language.super.tsx",
-        "source.tsx meta.group.braces.curly.tsx meta.group.braces.round.tsx  variable.other.readwrite.tsx",
-        "source.tsx meta.class.tsx meta.class.property.tsx meta.group.braces.curly.tsx meta.group.braces.round.tsx variable.other.readwrite.tsx"
-      ],
-      "settings": {
-        "foreground": "#C178DD"
-      }
-    },
-    {
-      "scope": [
-        "source.tsx meta.group.braces.round.tsx meta.group.braces.curly.tsx meta.group.braces.curly.tsx meta.group.braces.curly.tsx string.interpolated.tsx keyword.other.template.begin.tsx",
-        "source.tsx meta.group.braces.round.tsx meta.group.braces.curly.tsx meta.group.braces.curly.tsx meta.group.braces.curly.tsx string.interpolated.tsx keyword.other.template.end.tsx",
-        "source.tsx string.interpolated.tsx keyword.other.template.end.tsx",
-        "source.tsx string.interpolated.tsx keyword.other.template.begin.tsx",
-        "source.tsx keyword.other.substitution.begin.tsx",
-        "source.tsx keyword.other.substitution.end.tsx"
-      ],
-      "settings": {
-        "foreground": "#98C379"
-      }
-    },
-    {
-      "scope": [
-        "entity.name.type.tsx",
-        "meta.type.parameters.tsx",
-        "meta.var.expr.tsx",
-        "meta.block.tsx",
-        "meta.arrow.tsx",
-        "meta.var.expr.tsx",
-        "source.tsx"
-      ],
-      "settings": {
-        "foreground": "#56B6C2"
-      }
-    },
-    {
-      "scope": ["meta.object-literal.key.tsx"],
-      "settings": {
-        "foreground": "#ABB2BF"
-      }
-    },
-    {
-      "scope": [
-        "support.type.primitive.tsx",
-        "meta.type.parameters.tsx",
-        "meta.var.expr.tsx",
-        "meta.block.tsx",
-        "meta.arrow.tsx",
-        "meta.var.expr.tsx",
-        "source.tsx"
-      ],
-      "settings": {
-        "foreground": "#56B6C2"
-      }
-    },
-    {
-      "scope": [
-        "source.tsx meta.function-call.tsx variable.other.object.tsx",
-        "source.tsx meta.function.tsx entity.name.function.tsx",
-        " variable.other.constant.tsx meta.definition.variable.tsx meta.array-binding-pattern-variable.tsx meta.var.expr.tsx meta.block.tsx meta.function.tsx source.tsx",
-        "source.tsx variable.other.readwrite.tsx",
-        "source.tsx meta.function.tsx meta.block.tsx meta.var.expr.tsx meta.array-binding-pattern-variable.tsx meta.definition.variable.tsx variable.other.constant.tsx"
-      ],
-      "settings": {
-        "foreground": "#ABB2BF"
-      }
-    },
-    {
-      "scope": [
-        "meta.block.tsx",
-        "source.tsx meta.object.member.tsx variable.other.readwrite.tsx"
-      ],
-      "settings": {
-        "foreground": "#ABB2BF"
-      }
-    },
-    {
-      "scope": [
-        "source.tsx meta.embedded.expression.tsx variable.other.readwrite.tsx",
-        "source.tsx meta.block.tsx variable.other.readwrite.tsx"
-      ],
-      "settings": {
-        "foreground": "#C178DD"
-      }
-    },
-    {
-      "scope": ["entity.name.type.module.ts"],
-      "settings": {
-        "foreground": "#C178DD"
-      }
-    },
-    {
-      "scope": ["keyword.operator.expression.typeof.ts"],
-      "settings": {
-        "foreground": "#E06C75"
-      }
-    },
-    {
-      "scope": ["entity.name.type.ts"],
-      "settings": {
-        "foreground": "#ABB2BF"
-      }
-    },
-    {
-      "scope": ["source.ts meta.function-call.ts variable.other.object.ts"],
-      "settings": {
-        "foreground": "#ABB2BF"
-      }
-    },
-    {
-      "scope": [
-        "source.ts meta.function.ts meta.block.ts meta.objectliteral.ts meta.object.member.ts meta.object-literal.key.ts"
-      ],
-      "settings": {
-        "foreground": "#ABB2BF"
-      }
-    },
-    {
-      "scope": ["punctuation.definition.section.case-statement.ts"],
-      "settings": {
-        "foreground": "#ABB2BF"
-      }
-    },
-
-    {
-      "scope": [
-        "source.tsx meta.function.tsx meta.block.tsx meta.function-call.tsx support.function.json.tsx"
-      ],
-      "settings": {
-        "foreground": "#56B6C2"
-      }
-    },
-    {
-      "scope": [
-        "source.ts meta.function.ts meta.return.type.ts meta.object.type.ts meta.field.declaration.ts meta.type.annotation.ts entity.name.type.ts",
-        "source.ts meta.function.ts meta.parameters.ts meta.type.annotation.ts entity.name.type.ts"
-      ],
-      "settings": {
-        "foreground": "#56B6C2"
-      }
-    },
-    {
-      "scope": ["entity.name.type.alias.tsx", "variable.other.constant.tsx"],
-      "settings": {
-        "foreground": "#6CAFEC"
-      }
-    },
-    {
-      "scope": [
-        "source.tsx meta.export.default.tsx variable.other.readwrite.tsx"
-      ],
-      "settings": {
-        "foreground": "#6CAFEC"
-      }
-    },
-    {
-      "scope": [
-        "source.tsx meta.function.tsx meta.block.tsx meta.objectliteral.tsx meta.object.member.tsx variable.other.readwrite.tsx"
-      ],
-      "settings": {
-        "foreground": "#6CAFEC"
       }
     }
   ]
