@@ -2010,7 +2010,8 @@
         "source.js keyword.operator.module.js"
       ],
       "settings": {
-        "foreground": "#E06C75"
+        "foreground": "#E06C75",
+        "fontStyle": ""
       }
     },
     {
@@ -2636,7 +2637,7 @@
     {
       "scope": "source.tsx meta.var.expr.tsx meta.objectliteral.tsx meta.object.member.tsx variable.other.readwrite.tsx",
       "settings": {
-        "foreground": "#ABB2BF"
+        "foreground": "#6CAFEC"
       }
     },
     {
@@ -2667,7 +2668,7 @@
     {
       "scope": "source.tsx meta.var.expr.tsx variable.other.readwrite.tsx",
       "settings": {
-        "foreground": "#ABB2BF"
+        "foreground": "#6CAFEC"
       }
     },
     {
@@ -2721,7 +2722,6 @@
     },
     {
       "scope": [
-        "entity.name.type.module.tsx",
         "meta.type.annotation.tsx",
         "meta.parameters.tsx",
         "meta.type.function.tsx",
@@ -2733,6 +2733,12 @@
       ],
       "settings": {
         "foreground": "#ABB2BF"
+      }
+    },
+    {
+      "scope": ["entity.name.type.module.tsx"],
+      "settings": {
+        "foreground": "#56B6C2"
       }
     },
     {
