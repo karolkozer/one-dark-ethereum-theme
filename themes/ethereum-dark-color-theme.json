@@ -2508,6 +2508,12 @@
       }
     },
     {
+      "scope": ["support.type.builtin.tsx"],
+      "settings": {
+        "foreground": "#D19A66"
+      }
+    },
+    {
       "scope": [
         "variable.other.readwrite.tsx",
         "variable.parameter",
@@ -2755,7 +2761,10 @@
       }
     },
     {
-      "scope": ["source.tsx variable.other.object.tsx"],
+      "scope": [
+        "source.tsx variable.other.object.tsx",
+        "variable.other.object.tsx"
+      ],
       "settings": {
         "foreground": "#C178DD"
       }
@@ -2869,7 +2878,6 @@
     },
     {
       "scope": [
-        "source.tsx meta.function-call.tsx variable.other.object.tsx",
         "source.tsx meta.function.tsx entity.name.function.tsx",
         " variable.other.constant.tsx meta.definition.variable.tsx meta.array-binding-pattern-variable.tsx meta.var.expr.tsx meta.block.tsx meta.function.tsx source.tsx",
         "source.tsx variable.other.readwrite.tsx",
@@ -2882,7 +2890,8 @@
     {
       "scope": [
         "meta.block.tsx",
-        "source.tsx meta.object.member.tsx variable.other.readwrite.tsx"
+        "source.tsx meta.object.member.tsx variable.other.readwrite.tsx",
+        "source.tsx meta.var.expr.tsx meta.arrow.tsx meta.tag.tsx meta.tag.attributes.tsx meta.embedded.expression.tsx variable.other.readwrite.tsx"
       ],
       "settings": {
         "foreground": "#ABB2BF"
