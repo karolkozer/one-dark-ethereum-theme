@@ -2447,7 +2447,8 @@
         "keyword.operator.new.tsx",
         "source.tsx meta.class.tsx storage.modifier.tsx",
         "source.tsx meta.class.tsx meta.method.declaration.tsx meta.block.tsx meta.function-call.tsx variable.language.super.tsx",
-        "source.tsx keyword.operator.module.tsx"
+        "source.tsx keyword.operator.module.tsx",
+        "storage.type.enum.tsx"
       ],
       "settings": {
         "foreground": "#E06C75",
@@ -2589,6 +2590,21 @@
     },
     {
       "scope": "source.tsx meta.class.tsx entity.name.class.tsx",
+      "settings": {
+        "foreground": "#6CAFEC"
+      }
+    },
+    {
+      "scope": "entity.name.type.enum.tsx",
+      "settings": {
+        "foreground": "#6CAFEC"
+      }
+    },
+    {
+      "scope": [
+        "source.tsx case-clause.expr.tsx variable.other.constant.object.tsx",
+        "source.tsx case-clause.expr.tsx variable.other.constant.property.tsx"
+      ],
       "settings": {
         "foreground": "#6CAFEC"
       }
