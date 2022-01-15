@@ -413,7 +413,8 @@
       "scope": [
         "entity.other.attribute-name",
         "entity.other.attribute-name.js",
-        "entity.other.attribute-name.ts"
+        "entity.other.attribute-name.ts",
+        "entity.other.attribute-name.tsx"
       ],
       "settings": {
         "foreground": "#D19A66",
