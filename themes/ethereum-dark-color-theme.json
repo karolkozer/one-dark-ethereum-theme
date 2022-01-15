@@ -2448,7 +2448,8 @@
         "source.tsx meta.class.tsx storage.modifier.tsx",
         "source.tsx meta.class.tsx meta.method.declaration.tsx meta.block.tsx meta.function-call.tsx variable.language.super.tsx",
         "source.tsx keyword.operator.module.tsx",
-        "storage.type.enum.tsx"
+        "storage.type.enum.tsx",
+        "storage.modifier.async.ts"
       ],
       "settings": {
         "foreground": "#E06C75",
