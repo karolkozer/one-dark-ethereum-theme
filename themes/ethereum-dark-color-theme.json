@@ -2012,8 +2012,10 @@
         "variable.language.this.js",
         "storage.type.class.js",
         "keyword.operator.new.js",
+        "storage.modifier.tsx",
         "source.js meta.class.js storage.modifier.js",
         "source.js meta.class.js meta.method.declaration.js meta.block.js meta.function-call.js variable.language.super.js",
+        "storage.modifier.js",
         "source.js keyword.operator.module.js"
       ],
       "settings": {
