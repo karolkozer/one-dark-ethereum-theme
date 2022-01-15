@@ -2610,6 +2610,12 @@
       }
     },
     {
+      "scope": ["variable.other.enummember.tsx"],
+      "settings": {
+        "foreground": "#56B6C2"
+      }
+    },
+    {
       "scope": [
         "variable",
         "entity.name.function",
